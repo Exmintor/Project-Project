@@ -1,0 +1,253 @@
+Með Delegation - Strategy
+Án Delegation - Management + Strategy
+
+Race - Skill tré
+Background - Skill tré
+Characteristic - (Hidden? Sjá þegar triggerast?) - Hjálpar við persónulegt relationship
+Attributes/Stats
+
+Delegation:
+-Stats
+-Economy
+-Scouting
+-Training
+(-Reputation (ambassador))
+
+Scouting - Gera dýpra, geta scoutað eftir ákveðnum hæfileikum
+
+Training - Geta focusað á attribute
+
+Skill tré - Hafa þau djúp og spennandi
+
+Weapon - Rock Paper Scissor?
+Race - Rock Paper Scissor?
+
+Mismunandi byrjanir við mismunandi Race, mismunandi progression paths - replayability
+
+Skill tré - Mismunandi skill tré fyrir hvert einasta race
+Skill tré - Þarft að hafa ákveðið hátt attribute/stat fyrir einhverja talents. 
+Kannski frekar hafa mörg skill tree Skyrim style
+Hvert race er með mismunandi blöndu af talent trjám
+Race og background geta bæði haft áhrif á skill tré
+
+Getur gefið command/interactað mid simulation
+
+Getur scoutað óvini fyrirfram til að sjá weakness og hvernig þeir spila
+
+Mismunandi game mode, 2v2, 3v3 og fleira (race vs race) (2v2 með öðrum manager)
+
+Vopn og armor, hægt að hafa Barrier sem nokkurs konar item slot (kæmi í staðin fyrir annað weapon slot af 2 (3?))
+
+Choices með characterinn?? Interacta við fighterinn
+
+Randomness
+
+Big stack bully
+
+Geta búið til comp (Healer/Damage/Tank) í 2v2 og 3v3
+
+Geta delegatað verkum á fólk fyrir pening
+
+Reputation sem bónus og/eða currency
+
+Gott AI
+
+Hafa stað sem hægt er að grinda
+
+Mismunandi seríur (kannski þarft að fórna einu fyrir annað)
+
+Fyrir mismunandi mót þarftu mögulega aðspecializa þig fyrir það
+
+(Reputation) Opinion frá race gætirðu þurft að grinda til að komast inná ákveðin mót
+
+Ef kappi hjá þér er að standa sig vel færðu gott opinion frá því race
+
+Getum haft óvina race, ef þú focusar á eitt race er kannski erfiðara að recruita hjá einhverju öðru (enemy)
+Political/Historical confrontation milli races
+
+Characteristics (hatar race/vinur/environment/mínus þegar hann er að tapa)
+
+Darkest Dungeon animation style
+
+Seinasti óvinur er "Empire" based
+
+Ingame incentive til að fá fólk til að fara í önnur mode (líka rewards)
+
+Achievment/objectives til að gefa fólki Rep/Title/Vopn/Etc. - Reward (og opnar fyrir mismunandi hluti)
+
+Grind hugmynd - objective eða tournament leyfa þér að grinda fyrir talent point etc.
+
+Support/Healing/Tanking/Damage(Sustained og Glass cannon)/Combo/Saboteur/Control
+
+Gym Leader pæling fyrir sum mode, þarft að vinna ákveðin setup (pælir í strategy fyrir aðstæður, það er ekki eitt ultimate comp sem vinnur allt)
+
+Rival pæling, ef að þú ert unnin af einhverjum, þá muntu sjá hann aftur (hann progressar hraðar en þú og verður mögulega markmið) - virkar vel með race, rivalry milli þeirra
+
+Hvert race hefur characteristic flavor (og flaw)
+
+Skoða betra economy (í AoG t.d. byrjarðu með lítinn pening sem depletar hratt) - Ef að margir dagar líða þar sem er ekkert að gera er það frustrating
+
+Borga fyrir lengri tíma í stað þess að blæða peningum daglega
+
+Difficulty selection (hversu detailed viltu þessi aspect af leikum)
+
+Í byrjun geturðu ráðið gaur til að höndla budgetið (delegation) - Ekki jafn efficcient og venjulega, verðu að fá reward fyrir að gera sjálfur
+
+Kannski líka hægt að delegata RPG aspectinu? - Ekki jafn efficcient og venjulega, verðu að fá reward fyrir að gera sjálfur
+
+Of mikið micromanagement getur verið neikvætt þegar þú ert kominn með stórt "fyrirtæki" - Þarf að eyða pening í að delegata
+
+Vantar meiri pælingar bakvið economy systemið.
+
+Passa okkur á að ekkert sé ignored (oft svo mikil option í Manager leikjum, maður veit ekki hvar á að byrja, hætta á að eitthvað detti framhjá fólki)
+
+Viljum ekki að spilarar þurfi að eyða klukkutímum í að researcha hvernig á að spila leikinn áður en þeir byrja, eiga frekar að geta dottið í hann og byrjað fljótt að hafa gaman
+
+Mana Resource - Memory ef við erum með tölvubased galdra/skill kerfi - Spellcaster
+
+Pæla í fleiri resource systems - eins og stamina
+
+Eitthvað universal dæmi á casting/skill/ability
+
+Tengja resource management við weapon/skill/ability slots - Ef þú equippar galda ertu með memory, ef þú equippar vopn ertu með stamina etc.
+
+Hybrid er meira utility - Specialization er öflugari skill/ability
+
+Fleiri vopn = meiri stamina
+Fleiri galdrar = meira memory
+
+Tengja statta/resource við Skill Tree
+Þarft t.d. að eyða 3 punktum í meira stamina til að geta notað stamina heavy ability etc.
+
+Opnar fyrir training - fær bónusa ef maður er hefur specialized training
+
+Skiptir máli að hafa gott roster af fighterum. Hybridization og specialization hjálpa til við að byggja diverse roster. Sérstaklega þegar Race og Background (og skill allocation) eru tekin með í reikninginn
+
+((Hvert einasta mode gæti verið layer/tier based. Verður að grinda þig upp í hæsta level í því tier.))
+
+Væri kúl að hafa tir based skill tré. Sem dæmi - 5 tier, í herju tier eru 3 level af abilities. Í fyrsta tier eru basic hlutir, síðan þegar þú specializar heavy þá ertu kominn með 5. tré. En þá er ERFITT að fá talent punkt í því (eða að þeir kosta meira).
+
+((Hægt að hafa experience per talent tré. Ef þú notar fighting abilities þá færðu fighting experience etc. Einn punktur per level í hverju tré, erfiðara að levela upp því meiri punkta sem þú hefur.))
+
+Branching talen tré sem er samt tier based. (Gömlu WoW talent tréin - Eða Diablo 2 Talent tréin)
+
+Betra líklega að hafa generic talent point til að halda specialization og hybridization aðskildu.
+
+Training preset til að increasa stats (ákveður hvaða statt þú vilt traina og hækkar í þeim þegar þú levelar/eða gradually). (Líka hægt að hafa automatic stat investments eftir hvaða skill tree þú investar í)/(Eða hafa manual stat increase við level) - Mögulega skemmtilegra að gera manual (getum líka notað delegation pælinguna til að láta stats hækka automatically fyrir fólk sem vill ekki pæla í því).
+
+Delegate gæinn fyrir stats - Getur sagt honum "Train him as sorcerer" etc.
+
+Hægt að láta einhvern traina sem A en setja í stat B við level up.
+
+Pæling - Gera leikinn skemmtilegri fyrir fólk sem velur að sleppa optional hlutunum (spilarar sem delegate því sem þeir geta) - Passa að leikurinn sé skemmtilegur í því formi
+
+Passa community reaction, að fólk hugsi ekki að það sé bara hægt að setja leikinn á "auto"
+
+Ekki eins og FM, delegation gæjinn er alltaf jafn inefficient - Delgation gæjinn má ekki vera of góður eða of lélegur - Þarf að hitta sweet spot
+
+Hægt að búa til skemmtielgan character (meme) úr delegation gæjanum - Getur verið MPV stundum en lúði stundum (randomness)
+
+Hafa humans sem Jack of all Trades / Master of None (þarf ekki að vera based á okkar veröld, en má það alveg)
+
+Getum haft einhverskonar fatigue mechanic. Þannig að fighterar eru ekki að detta út ógeðslega lengi eftir hvern einasta fight. Kannski ef þú notar sama gaur aftur og aftur þá verður hann lengi þreyttur.
+
+Pæla betur í hvort við viljum death á charactera (og/eða injury)
+
+Incentive til að hafa fjölbreyttan hóp er að hafa hard contera á flest (öll) strats
+
+Í staðin fyrir basic Tank - Hafa specialized tank (t.d. Magic Tank/Physical Tank/Saboteur Tank etc.) - Mismunandi tank mechanics (Health Pool/Barrier etc.)
+
+Getur búið til anti-magic team, anti-physical team
+
+Betra design strategy. Player getur alltaf búið til lið sem counterar eitthvað öflugt (Minna vesen með að balanca tölur)
+
+AI getur scoutað þig (verður meira late game) og búið til counters á móti þér
+
+Gott ef playerinn myndar bond við óvini (Rival pælingin)
+
+Hafa manager-manager interaction (Óvinur drullar yfir þig og tauntar)
+
+Í staðinn fyrir að hafa enemy characters þá hafa loosly defined role og characteristics
+
+Enemy Managers Characters:
+-Holda grudge (sérstaklega ef þeir tapa)
+-Eru friendly
+-Eru dicks
+-Respect
+-Byrjunargæjar - Ef þeir tapa gefast þeir kannski upp
+
+Þeir geta maturast við interaction (sigur, tap, etc.)
+
+Fyriar alla random factors, passa að hafa góða statta sem randomast
+
+Hver persónulaikatýpa hefur prósentulíkur á að grípa í setningar etc.
+
+Enemy interaction sem er unique fyrir hvert playthrough fær fólk til að lifa sig meira inní leikinn (rivalry, friendship etc.)
+
+Gott að geta klikkkað á manager og sjá History um interaction (fights) við aðra managera
+Opinion er góður hlutur (líka góður staður fyrir húmor, hægt að factora race tension þar inn)
+
+Events:
+-Hlutir sem shifta tensioni milli ákveðinna race
+-Stríð milli race getur haft áhrif á managers eða fighters (interaction)
+-Gæti líka haft neikvæð áhrif innai fighter hópsins sem þú managerar (ef þú setur þá saman vinna þeir illa saman)
+-Í fighter campinu t.d. - A ræðst á B, annar (báðir) eru núna meiddir
+-Gætir ekki farið í eitthvað mode afþví þú ert hataður á einhverjum tímapunkti
+
+-Fighterinn þinn var draftaður í stríð
+(-Getur potentially fengið experience á meðan eða frían bónus í einhverju statti)
+-Eða hann dó RIP gg
+
+-Natural disaster á heimaplánetu
+-Þínir fighterar þaðan vilja fara heim og eru demotivated etc.
+
+Pæla í racial tensions, hafa bakgrunn, gerir leikinn meira real (saga)
+Ekki forca á fólk sem nennir því ekki, en góð saga er alltaf bónus
+
+Hvert race með representative (political figure/ambassador) - Sýnir hvernig raceið hagar sér generally
+
+Pæling, hafa survey í byrjun (character creation). Enemy managers reacta við hvernig persóna þú ert
+
+Galaxy Map - Overview (Selectar race eða galaxy og þá er maður kominn á þeirra turf)
+Races gætu þannig séð verið tier based. Homa planets eru tier 1, stór community (neutral turf) tier 2 etc. (tier 3+ eins og Rex í Twilight Imperium)
+Stærsta modeið myndi vera í stærsta dæmi. Þar eru allir (intergalacic federation) risastórt. Ultimate fighting championaship.
+
+Home planet eru yst
+Svo neutral
+Intergalactic alveg í miðjunni
+Skemtmielgt progression (byrjar í ysta hring, vilt komast innst)
+
+Mynd af Galaxy er home screen, allir tabs opnast yfir það (sést alltaf aðeins galaxy í bakgrunninum, snúast etc)
+
+Til að confusa ekki playera, galaxyið myndi þurfa að vera með fake motion (svo að pláneturnar séu alltaf á sama stað)
+
+Líka hægt að hafa meira simple til að avoida klisjukennda sci-fi lookið
+
+IMPORTANT: Gera racial tention vel. Hafa event og interaction flott og vel gert.
+
+Homescreen gæti líka verið þinn camp. Fighterarnir að traina etc. Ef þú ert að ráða fólk til að traina/ upgradea facility / kaupa hluti etc.
+Mögulega hægt að hafa minigame þar sem þú kaupir og decoratar home base
+Getur keypt nýjar og stærri aðstöður
+Svipað og Darkest Dungeon þar sem þú sérð byggingarnar breytast/hluti gerast
+Fighterarnir traina (animation) - Samt ekki SFX bara background music
+Hlutir eru lifandi
+Opportunity fyrir húmor og easter eggs
+
+
+
+Pæla í Achievments
+
+
+
+
+FOR NEXT TIME:
+Combat-
+-Weapons/Barrier
+-Physical
+-Tank (Aura) (Shieldar ally í einhvern tíma)
+-Magic (Damage/Utility)
+-Support (Healing/Buff)
+-Saboteur (Getur specializað móti öðrum roles)
+-Stats
+-Races
+(-Interaction)

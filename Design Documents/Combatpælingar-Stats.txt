@@ -1,0 +1,108 @@
+FOR NEXT TIME:
+Combat-
+-Weapons/Barrier
+-Physical
+-Tank (Aura) (Shieldar ally í einhvern tíma)
+-Magic (Damage/Utility)
+-Support (Healing/Buff)
+-Saboteur (Getur specializað móti öðrum roles)
+-Stats
+-Races
+(-Interaction)
+
+Instruction ætti að gerast fyrir bardaga, en ekki á meðan. Meiri sim pælingar, og bardaginn verður ekki of langur.
+
+Mögulega hafa simple stat, þá yrði ákvörðunartakan meira kringum talent tré.
+Mögulega hafa hidden stats, þannig að playerar geti fókusað á area, en ekki haft bein áhrif á statta (abstraction). - Assistant?
+
+Scalea damage af punktum sem settir eru í talenta og af vopnum.
+
+Combo talents - T.d. Fire/Lightning/Ice bolt combinast í Elemental bolt þar sem dmg scaleast af öllum hinum. Auka feature á þann bolt (mínus á resistance??)
+
+Tank redirectar damage og eða tauntar (og eða gefur aura)
+
+Dreifa effects milli classa (en yrðu alltaf sterkust í sínum class, t.d. poison vs bleed - Poison (DoT Saboteur) er sterkara)
+
+Skipta abilities niður í Types (Bolt og Aura t.d.) - Gætir bara tekið einn bolt og eitt aura t.d. - Meira heillandi en það fyrir neðan?
+Gætum líka gert það sama gegnum Combo Talent - Ef að einhver velur fire og lighting bolt sameinast þeir
+
+Halda ability slot, þannig að það sé ekki hægt að equippa of mörg skill í einu.
+Sleppa þá resource system?
+
+Hafa einhver ability (Support/Poison/Attack etc.) sem rampar upp í damage eða álíka. Byrjar low, en hækkar.
+Hafa líka anti þannig ability (Esuna)
+
+Meiri ramp pælingar - Barbarian, þegar hann hittir árás rampast upp t.d. Attack Speed og/eða Damage
+Counter getur verið t.d. stun
+
+Posion og Barbarian eru í raun iteration á damage/saboteur types.
+
+Meira juicy að setja marga punkta í talent heldur en að pumpa upp stött.
+
+Getur assignað utilities og abilities á target fyrir bardaga. Ekki í miðjum bardaga. Strategy pæling (þarf ég interrupt? hvern þarf ég að interrupta?)
+
+
+Class Types:
+-Damage:
+	-Physical
+	-Magical
+	-Ranged
+-Tanky
+	-Physical
+	-Magical
+	-Avoidance
+-Support
+	-Healer
+	-Buffer
+-Saboteur
+	-Debuffer
+		-Magical
+		-Physical
+		-Ranged/Avoidance
+	-DoT? (Posion)
+
+
+Stats:
+- Strength ()
+- Agility ()
+- Intelligence (Magic)
+- Vitality (Defense)
+- Hit (Accuracy)
+- Magic Hit
+- Health
+- Mana Pool
+- Stamina
+- Mana Regen
+- Health Regen
+- Stamina Regen
+- Avoidance (Dodge)
+- Magic Avoidance
+- Magic Defense
+- Resistance (Fleiri en eitt?)
+- Magic Res
+- Equip Burden
+- Attack Speed
+- Magic Speed
+- Faith (Spirit)
+
+Decision Stat - 
+Perception eða Intellect
+Mögulega Deception stat?
+
+
+
+
+TALENT TRÉ-
+-Hvaða Classes eru til? 
+-Hversu mörg talent tré per class?
+-Hvaða role uppfyllir hvert tré?
+-Hvernig Progression Path?
+-Hvernig Blandast Þau Saman?
+-Hvernig Tengjast Þau Race og Background?
+
+Additionally
+-Hvaða Race Eru Til? og hvaða bónus gefur það í stat
+-Hvaða Backgrounds? og hvaða bónus gefur það í stat
+-Fyrir Combat - Hver eru slottin (ability) (Offense/Defense/Utility)
+-Hvernig ætlum við að höndla automated combat? Sérstaklega þegar kemur að utilities.
+-Hvernig ætlum við að höndla Weapon/Armor? -Ekki endilega minnka damag, heldur hækkar einhver stött. Bónusinn skiptir meira máli en type.
