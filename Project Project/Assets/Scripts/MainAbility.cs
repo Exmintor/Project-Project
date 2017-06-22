@@ -13,12 +13,9 @@ public class MainAbility : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-		
-	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
-		
+        Player player = GetComponent<Player>();
+        StatusEffect statusEffect = new StatusEffect(effect, increase, duration);
+        Ability ability = new Ability(ID, cooldown, channelTime, statusEffect);
+        player.abilities.Add(ability);
 	}
 }

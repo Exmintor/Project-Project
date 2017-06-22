@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum Effect { Damage, Heal, Poison, DamageUp }
+
 public class StatusEffect
 {
     public Effect effect { get; private set; }

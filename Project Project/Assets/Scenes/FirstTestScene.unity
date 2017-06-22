@@ -227,6 +227,28 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 38d984046d13718488bed825877a24fc, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &124432453 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1574265927787662, guid: 38d984046d13718488bed825877a24fc,
+    type: 2}
+  m_PrefabInternal: {fileID: 124432452}
+--- !u!114 &124432454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124432453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40dfff39cbbfa44ca4962b029a90e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: '"Magic Cleave"'
+  cooldown: 0
+  channelTime: 0
+  effect: 0
+  increase: 0
+  duration: 0
 --- !u!114 &127510269 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114070986664393780, guid: 858354186ca9a594ab04e3337c734ed2,
@@ -413,6 +435,28 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0894350cfaa2194686000357f7edab5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &304428009 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1775065420091910, guid: d0894350cfaa2194686000357f7edab5,
+    type: 2}
+  m_PrefabInternal: {fileID: 304428008}
+--- !u!114 &304428010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 304428009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40dfff39cbbfa44ca4962b029a90e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 
+  cooldown: 0
+  channelTime: 0
+  effect: 0
+  increase: 0
+  duration: 0
 --- !u!1001 &345527944
 Prefab:
   m_ObjectHideFlags: 0
@@ -521,6 +565,28 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aeda0cf4f122f7846a6494a5a6aface0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &600896613 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1692332871436152, guid: aeda0cf4f122f7846a6494a5a6aface0,
+    type: 2}
+  m_PrefabInternal: {fileID: 600896612}
+--- !u!114 &600896614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 600896613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40dfff39cbbfa44ca4962b029a90e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: '"Physical Single"'
+  cooldown: 0
+  channelTime: 0
+  effect: 0
+  increase: 0
+  duration: 0
 --- !u!1001 &620541121
 Prefab:
   m_ObjectHideFlags: 0
@@ -729,6 +795,28 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c912468e5800a4439e791fb86560919, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &734512052 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1248177140671886, guid: 7c912468e5800a4439e791fb86560919,
+    type: 2}
+  m_PrefabInternal: {fileID: 734512051}
+--- !u!114 &734512053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 734512052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40dfff39cbbfa44ca4962b029a90e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 
+  cooldown: 0
+  channelTime: 0
+  effect: 0
+  increase: 0
+  duration: 0
 --- !u!1001 &846625610
 Prefab:
   m_ObjectHideFlags: 0
@@ -795,6 +883,28 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0894350cfaa2194686000357f7edab5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &846625611 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1775065420091910, guid: d0894350cfaa2194686000357f7edab5,
+    type: 2}
+  m_PrefabInternal: {fileID: 846625610}
+--- !u!114 &846625612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846625611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40dfff39cbbfa44ca4962b029a90e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 
+  cooldown: 0
+  channelTime: 0
+  effect: 0
+  increase: 0
+  duration: 0
 --- !u!1 &902727151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,6 +1150,28 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 858354186ca9a594ab04e3337c734ed2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2038117304 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1148197991640808, guid: 858354186ca9a594ab04e3337c734ed2,
+    type: 2}
+  m_PrefabInternal: {fileID: 2038117303}
+--- !u!114 &2038117305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2038117304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40dfff39cbbfa44ca4962b029a90e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: '"Heal"'
+  cooldown: 0
+  channelTime: 0
+  effect: 1
+  increase: 0
+  duration: 0
 --- !u!114 &2145364728 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114082537518446700, guid: c72c6b66b47d669408ce78c97664a205,

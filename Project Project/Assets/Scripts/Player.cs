@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 
     public int teamNumber;
 
-    private List<Ability> abilities;
+    public List<Ability> abilities { get; private set; }
     private List<Player> targets;
 
     private float timeSinceLastAttack = 0;
@@ -73,6 +73,7 @@ public class Player : MonoBehaviour
 
     private Ability ChooseAbility()
     {
+        //TODO: Fix ability based on new Ability and Status Effect scripts.
         Ability ability = ReturnBasicAttack();
         return ability;
     }
