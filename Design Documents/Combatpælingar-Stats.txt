@@ -2,44 +2,44 @@ FOR NEXT TIME:
 Combat-
 -Weapons/Barrier
 -Physical
--Tank (Aura) (Shieldar ally í einhvern tíma)
+-Tank (Aura) (Shieldar ally Ã­ einhvern tÃ­ma)
 -Magic (Damage/Utility)
 -Support (Healing/Buff)
--Saboteur (Getur specializağ móti öğrum roles)
+-Saboteur (Getur specializaÃ° mÃ³ti Ã¶Ã°rum roles)
 -Stats
 -Races
 (-Interaction)
 
-Instruction ætti ağ gerast fyrir bardaga, en ekki á meğan. Meiri sim pælingar, og bardaginn verğur ekki of langur.
+Instruction Ã¦tti aÃ° gerast fyrir bardaga, en ekki Ã¡ meÃ°an. Meiri sim pÃ¦lingar, og bardaginn verÃ°ur ekki of langur.
 
-Mögulega hafa simple stat, şá yrği ákvörğunartakan meira kringum talent tré.
-Mögulega hafa hidden stats, şannig ağ playerar geti fókusağ á area, en ekki haft bein áhrif á statta (abstraction). - Assistant?
+MÃ¶gulega hafa simple stat, Ã¾Ã¡ yrÃ°i Ã¡kvÃ¶rÃ°unartakan meira kringum talent trÃ©.
+MÃ¶gulega hafa hidden stats, Ã¾annig aÃ° playerar geti fÃ³kusaÃ° Ã¡ area, en ekki haft bein Ã¡hrif Ã¡ statta (abstraction). - Assistant?
 
-Scalea damage af punktum sem settir eru í talenta og af vopnum.
+Scalea damage af punktum sem settir eru Ã­ talenta og af vopnum.
 
-Combo talents - T.d. Fire/Lightning/Ice bolt combinast í Elemental bolt şar sem dmg scaleast af öllum hinum. Auka feature á şann bolt (mínus á resistance??)
+Combo talents - T.d. Fire/Lightning/Ice bolt combinast Ã­ Elemental bolt Ã¾ar sem dmg scaleast af Ã¶llum hinum. Auka feature Ã¡ Ã¾ann bolt (mÃ­nus Ã¡ resistance??)
 
-Tank redirectar damage og eğa tauntar (og eğa gefur aura)
+Tank redirectar damage og eÃ°a tauntar (og eÃ°a gefur aura)
 
-Dreifa effects milli classa (en yrğu alltaf sterkust í sínum class, t.d. poison vs bleed - Poison (DoT Saboteur) er sterkara)
+Dreifa effects milli classa (en yrÃ°u alltaf sterkust Ã­ sÃ­num class, t.d. poison vs bleed - Poison (DoT Saboteur) er sterkara)
 
-Skipta abilities niğur í Types (Bolt og Aura t.d.) - Gætir bara tekiğ einn bolt og eitt aura t.d. - Meira heillandi en şağ fyrir neğan?
-Gætum líka gert şağ sama gegnum Combo Talent - Ef ağ einhver velur fire og lighting bolt sameinast şeir
+Skipta abilities niÃ°ur Ã­ Types (Bolt og Aura t.d.) - GÃ¦tir bara tekiÃ° einn bolt og eitt aura t.d. - Meira heillandi en Ã¾aÃ° fyrir neÃ°an?
+GÃ¦tum lÃ­ka gert Ã¾aÃ° sama gegnum Combo Talent - Ef aÃ° einhver velur fire og lighting bolt sameinast Ã¾eir
 
-Halda ability slot, şannig ağ şağ sé ekki hægt ağ equippa of mörg skill í einu.
-Sleppa şá resource system?
+Halda ability slot, Ã¾annig aÃ° Ã¾aÃ° sÃ© ekki hÃ¦gt aÃ° equippa of mÃ¶rg skill Ã­ einu.
+Sleppa Ã¾Ã¡ resource system?
 
-Hafa einhver ability (Support/Poison/Attack etc.) sem rampar upp í damage eğa álíka. Byrjar low, en hækkar.
-Hafa líka anti şannig ability (Esuna)
+Hafa einhver ability (Support/Poison/Attack etc.) sem rampar upp Ã­ damage eÃ°a Ã¡lÃ­ka. Byrjar low, en hÃ¦kkar.
+Hafa lÃ­ka anti Ã¾annig ability (Esuna)
 
-Meiri ramp pælingar - Barbarian, şegar hann hittir árás rampast upp t.d. Attack Speed og/eğa Damage
-Counter getur veriğ t.d. stun
+Meiri ramp pÃ¦lingar - Barbarian, Ã¾egar hann hittir Ã¡rÃ¡s rampast upp t.d. Attack Speed og/eÃ°a Damage
+Counter getur veriÃ° t.d. stun
 
-Posion og Barbarian eru í raun iteration á damage/saboteur types.
+Posion og Barbarian eru Ã­ raun iteration Ã¡ damage/saboteur types.
 
-Meira juicy ağ setja marga punkta í talent heldur en ağ pumpa upp stött.
+Meira juicy aÃ° setja marga punkta Ã­ talent heldur en aÃ° pumpa upp stÃ¶tt.
 
-Getur assignağ utilities og abilities á target fyrir bardaga. Ekki í miğjum bardaga. Strategy pæling (şarf ég interrupt? hvern şarf ég ağ interrupta?)
+Getur assignaÃ° utilities og abilities Ã¡ target fyrir bardaga. Ekki Ã­ miÃ°jum bardaga. Strategy pÃ¦ling (Ã¾arf Ã©g interrupt? hvern Ã¾arf Ã©g aÃ° interrupta?)
 
 
 Class Types:
@@ -62,47 +62,20 @@ Class Types:
 	-DoT? (Posion)
 
 
-Stats:
-- Strength ()
-- Agility ()
-- Intelligence (Magic)
-- Vitality (Defense)
-- Hit (Accuracy)
-- Magic Hit
-- Health
-- Mana Pool
-- Stamina
-- Mana Regen
-- Health Regen
-- Stamina Regen
-- Avoidance (Dodge)
-- Magic Avoidance
-- Magic Defense
-- Resistance (Fleiri en eitt?)
-- Magic Res
-- Equip Burden
-- Attack Speed
-- Magic Speed
-- Faith (Spirit)
-
-Decision Stat - 
-Perception eğa Intellect
-Mögulega Deception stat?
 
 
 
-
-TALENT TRÉ-
--Hvağa Classes eru til? 
--Hversu mörg talent tré per class?
--Hvağa role uppfyllir hvert tré?
+TALENT TRÃ‰-
+-HvaÃ°a Classes eru til? 
+-Hversu mÃ¶rg talent trÃ© per class?
+-HvaÃ°a role uppfyllir hvert trÃ©?
 -Hvernig Progression Path?
--Hvernig Blandast Şau Saman?
--Hvernig Tengjast Şau Race og Background?
+-Hvernig Blandast Ãau Saman?
+-Hvernig Tengjast Ãau Race og Background?
 
 Additionally
--Hvağa Race Eru Til? og hvağa bónus gefur şağ í stat
--Hvağa Backgrounds? og hvağa bónus gefur şağ í stat
+-HvaÃ°a Race Eru Til? og hvaÃ°a bÃ³nus gefur Ã¾aÃ° Ã­ stat
+-HvaÃ°a Backgrounds? og hvaÃ°a bÃ³nus gefur Ã¾aÃ° Ã­ stat
 -Fyrir Combat - Hver eru slottin (ability) (Offense/Defense/Utility)
--Hvernig ætlum viğ ağ höndla automated combat? Sérstaklega şegar kemur ağ utilities.
--Hvernig ætlum viğ ağ höndla Weapon/Armor? -Ekki endilega minnka damag, heldur hækkar einhver stött. Bónusinn skiptir meira máli en type.
+-Hvernig Ã¦tlum viÃ° aÃ° hÃ¶ndla automated combat? SÃ©rstaklega Ã¾egar kemur aÃ° utilities.
+-Hvernig Ã¦tlum viÃ° aÃ° hÃ¶ndla Weapon/Armor? -Ekki endilega minnka damag, heldur hÃ¦kkar einhver stÃ¶tt. BÃ³nusinn skiptir meira mÃ¡li en type.
