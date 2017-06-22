@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public PlayerManager playerManager;
 
     public int maxHealth;
-    public int CurrentHealth { get; private set; }
+    public float CurrentHealth { get; private set; }
 
     public float physAtkModifier;
     public float magAtkModifier;
@@ -50,7 +50,8 @@ public class Player : MonoBehaviour
 
     private void AddBasicAttack()
     {
-        abilities.Add(new Ability("Basic Attack", 10, 1));
+        StatusEffect basicDamage = new StatusEffect(Effect.Damage, 10, 0);
+        abilities.Add(new Ability("Basic Attack", 0, 0, basicDamage));
     }
 
     private void TakeAction()
@@ -78,7 +79,12 @@ public class Player : MonoBehaviour
 
     private void AffectTarget(Player target, Ability ability)
     {
-        target.TakeDamage(ability.Damage);
+        switch(ability.statusEffect.effect)
+        {
+            case (Effect.Damage):
+                target.TakeDamage(ability.statusEffect.Increase);
+                break;
+        }
     }
 
     private Player ChooseRandomEnemy()
@@ -131,7 +137,7 @@ public class Player : MonoBehaviour
         return false;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         CurrentHealth -= damage;
         if(CurrentHealth < 0)

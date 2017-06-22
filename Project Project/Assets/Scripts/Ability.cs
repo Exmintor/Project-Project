@@ -5,13 +5,15 @@ using UnityEngine;
 public class Ability
 {
     public string ID;
-    public int Damage { get; private set; }
-    private int cooldown;
+    private float cooldown;
+    private float channelTime;
+    public StatusEffect statusEffect { get; private set; }
 
-    public Ability(string id, int damage, int cooldown)
+    public Ability(string id, float cooldown, float channelTime, StatusEffect statusEffect)
     {
         this.ID = id;
-        this.Damage = damage;
         this.cooldown = cooldown;
+        this.channelTime = channelTime;
+        this.statusEffect = statusEffect;
     }
 }
