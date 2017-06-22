@@ -23,12 +23,17 @@ public class HpBar : MonoBehaviour {
     void Update ()
     {
         CalculateHealth();
+        ChangeBarSize();
         ChangeColor();
     }
 
     private void CalculateHealth()
     {
         healthPercentage = (float)player.CurrentHealth / (float)player.maxHealth;
+    }
+
+    private void ChangeBarSize()
+    {
         length = healthPercentage * initialLength;
         transform.localScale = new Vector3(length, transform.localScale.y);
     }
