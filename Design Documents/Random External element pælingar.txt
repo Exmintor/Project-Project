@@ -1,0 +1,27 @@
+Random Global/environemt effect:
+
+-Political intrigue:
+Stríð - Gæti haft áhrif á defiance/teamwork á milli race'a sem taka þá í le stríði eða voru affectaðir. 
+Stríð 2 - Fighterar gætu verið draftaðir í stríð og random hlutir gerast: Stat increase, exp increase, hann deyr, hann myndar relation við önnur race eftir hvernig stríðið er/fór.
+Trade - Random discovery af auðlindum geta skapað/rofið tengsl milli race'a.
+Alliance - Annað hvort háð því sem er að ofan eða eitthvað sem er preexisting, eykur relation milli ákveðinna race'a. Getum refine'að þetta betur síðar.
+Political leaders - Issues/arguements milli political leaders gæti verið góð uppspretta random factora.
+Lög - Eurovision extendar yfir allt galaxy'ið XD. Lög gætu verið in place sem restricta/enable'a ákveðna hluti. Lög gætu líka verið mynduð af political leader og/eða global senate?
+
+-Natural disaster:
+Home planet - Pláneta hjá einhverju race'i er að verða meira og meira uninhabitable, gæti haft áhrif á fightera hjá manni og/eða scouting pool.
+
+-Intentional hlutir hjá individuals/organisations:
+Organisation - Gætum haft eitt global organisation fyrir þetta gladiator scene, svipað og UFC eða gætum skipt þessum organisation'um niður milli race'a og capital.
+Organisation 2 - Gætum haft external organisations sem að hafa áhrif annað hvort globally eða locally. Terrorist/sabotage groups eða activists eða bara einhver hópur sem að hefur áhrif á eitthvað.
+Individuals - Gætum haft individuals sem að eru fixed og óhaggandi milli save'a sem að myndi gefa leiknum meira consistency og myndi battle'a á móti of miklu randomness.
+Individuals 2 - Gætum haft ákveðnar stöður sem eru fixed en mismunandi individuals sem occupy'a þær bæði as the save progresses og milli save'a. Eitt dæmi um þetta væri að breyta um political leader/s.
+Individuals 3 - Gætum haft individuals sem að eru að reyna að accomplisha eitthvað as the game progresses. T.d. Mad scientist týpa að reyna að útrýma eitthverju or sum, svipað og Organisation 2 nema með main antagonist/protagonist.
+
+-Possible effects of the above:
+Fighter deyr.
+Fighter er kidnapped.
+Fighter bailar.
+Fighter lækkar í stat, gæti verið mental eða physical.
+Scouting poolið breytist. Ekkert af ákveðnum race'um og meira af sumum, depending on disaster.
+Restrictions á hluti/armor, vegna laga eða kannski vantar resource fyrir þá or sum.
