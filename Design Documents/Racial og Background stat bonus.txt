@@ -1,0 +1,23 @@
+Racial/Background stat candidates:
+
+-Core stats based:
+Hærra Str, Agi, Int, Vita
+
+-Ability stat based:
+Overall magic dmg/healing boost
+Meira potency með ákveðnum spellum/dmg types
+Meira physical dmg (gæti verið skipt niður í með ákveðnum vopnum etc)
+
+-Hidden stat based:
+Meiri efficient training
+Hærra xp gain
+
+-Mental stat based:
+Hærra Decision
+Minna/meira defiant
+
+-Additional stat based:
+Crit chance (gæti verið skipt niður í með ákveðnum vopnum etc)
+Less effected af fatigue
+Meira resistance (different types of dmg)
+

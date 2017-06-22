@@ -1,0 +1,44 @@
+Stat setup:
+
+-Core Stats:
+Strength - Physical dmg og crit?
+Agility - Physical dmg og crit?
+Intelligence - Magic/healing mod, crit?, decision mod?
+Vitality - Health, health regen?
+
+-Ability dmg types:
+Fire
+Frost
+Lightning
+Poison/acid
+Holy/unholy?
+Physical
+(gæti kannski sýnt potency með þessum dmg types: +54,67% dmg með fire etc or sum)
+
+-Hidden stats:
+Training rate
+Experience gain
+
+-Mental stats (increase'ar með lvlum/xp):
+Decision - AI fljótar ákvarðanir (hjálpar að velja target og/eða)
+Leader/Leadership - Góður í að taka ákvarðanir
+Defiance - Ólíklegri til að fylgja leader
+Hardworking - Hefði áhrif á Training rate
+Reflexes - Myndi tengjast interrupt eða skyndiákvörðunum
+
+-Additional Stats:
+Crit chance
+Crit mod?
+Hit chance?
+Health regen
+Dodge/Avoidance?
+Dmg resist/armor?
+Magic resistance (kannski brotið niður í types)
+Attack speed
+Magic speed?
+
+
+Leadership? - Player getur mögulega assignað þann með besta decision stat sem leader - aðrir fylgja honum
+Förum varlega í leadership - testa vel
+
+
