@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
     private void AddBasicAttack()
     {
         StatusEffect basicDamage = new StatusEffect(Effect.Damage, 10, 0);
-        abilities.Add(new Ability("Basic Attack", 0, 0, basicDamage));
+        abilities.Add(new Ability("Basic Attack", 0, 0, 0, 1, basicDamage));
     }
 
     private void TakeAction()
