@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Assets_Gulli/SceneSwitchTest/Scene 1.unity
+    guid: 94f15e818449fbb48a3df4fffbd1728e
+  - enabled: 1
+    path: Assets/Assets_Gulli/SceneSwitchTest/Scene 2.unity
+    guid: 00000000000000000000000000000000
