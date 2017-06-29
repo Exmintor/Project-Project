@@ -1,0 +1,28 @@
+﻿STATUS EFFECTS:
+
+
+Poisoned
+        -Potency: 1
+        -Duration: 10 sec
+        -Tick Timer: 0.5 (fyrir Poisoner Test)
+
+Increased Defense:
+        -Potency:
+        -Duration:
+
+
+
+POISON:
+        -Stack Fjöldi: t.d. 3x Per Cast
+        -Duration: t.d. 10 sec
+        -Tick Timer: t.d. 2x per sec (0.5)
+        -Damage (Alltaf “1”)
+Equation f. DPS - (DAMAGE * DURATION STACK) / (TICK TIMER)
+
+
+Dæmi: (1 *  10 * 3) / (0.5) = 60 DPS
+Dæmi2: (1.2 * 10 * 3) / (0.5) = 72 DPS
+
+
+Til Samanburðar:
+Base * 1 +Modifier: 60 * (1.2) = 72 DPS

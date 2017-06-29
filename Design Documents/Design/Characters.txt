@@ -1,0 +1,92 @@
+﻿CHARACTERS:
+
+
+*Warrior Single
+        -Health: 2000
+        -Physical Attack: x2
+        -Magical Attack: x1
+        -Physical Defense: x1.5
+        -Magical Defense: x1
+        -Main Ability: Single Target Physical
+        -Basic Weapon: N/A
+
+Warrior Cleave
+        -Health: 
+        -Physical Attack: 
+        -Magical Attack: 
+        -Physical Defense: 
+        -Magical Defense: 
+        -Main Ability: Cleave Physical
+        -Basic Weapon: 
+
+Mage Single
+        -Health: 
+        -Physical Attack: 
+        -Magical Attack: 
+        -Physical Defense: 
+        -Magical Defense: 
+        -Main Ability: Single Target Magical
+        -Basic Weapon: 
+
+*Mage Cleave
+        -Health: 1200
+        -Physical Attack: x1
+        -Magical Attack: x2
+        -Physical Defense: x1
+        -Magical Defense: x1.5
+        -Main Ability: Cleave Magical
+        -Basic Weapon: N/A
+
+*Poisoner
+        -Health: 1200
+        -Physical Attack: x1
+        -Magical Attack: x1.8
+        -Physical Defense: x1
+        -Magical Defense: x1.4
+        -Main Ability: Poison/DoT (3x)
+        -Basic Weapon: N/A
+
+*Healer
+        -Health: 1000
+        -Physical Attack: x0.8
+        -Magical Attack: x1.2
+        -Physical Defense: x1
+        -Magical Defense: x1.2
+        -Main Ability: Heal
+        -Basic Weapon: N/A
+
+Synergist
+        -Health: 
+        -Physical Attack: 
+        -Magical Attack: 
+        -Physical Defense: 
+        -Magical Defense: 
+        -Main Ability: Shield
+        -Basic Weapon: 
+
+*Tank
+        -Health: 3000
+        -Physical Attack: x1
+        -Magical Attack: x1
+        -Physical Defense: x2
+        -Magical Defense: x2
+        -Main Ability: Sacrifice/Guard
+        -Basic Weapon: N/A
+
+Buffer
+        -Health: 
+        -Physical Attack: 
+        -Magical Attack: 
+        -Physical Defense: 
+        -Magical Defense: 
+        -Main Ability: Buff
+        -Basic Weapon: 
+
+Saboteur
+        -Health: 
+        -Physical Attack: 
+        -Magical Attack: 
+        -Physical Defense: 
+        -Magical Defense: 
+        -Main Ability: Weaken/Debuff
+        -Basic Weapon:

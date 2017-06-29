@@ -1,0 +1,106 @@
+﻿ABILITIES:
+
+
+Basic Attack
+        -Damage: 5
+        -Cooldown: 1 sec
+        -Stat Change: N/A
+        -Effect: N/A
+        -Priority: 4
+        -Channeled: N/A
+
+Single Target Physical
+        -Damage: 50
+        -Cooldown: 5 sec
+        -Stat Change: N/A
+        -Effect: N/A
+	-Priority: Determined from input
+        -Channeled: N/A
+
+Single Target Magical
+        -Damage: 50
+        -Cooldown: 5 sec
+        -Stat Change: N/A
+        -Effect: N/A
+        -Priority: Determined from input
+        -Channeled: N/A
+
+Cleave Physical
+        -Damage: 35
+        -Cooldown: 5 sec
+        -Stat Change: N/A
+        -Effect: Hits 2 Characters
+        -Priority: Determined from input
+        -Channeled: 
+
+Cleave Magical
+        -Damage: 35
+        -Cooldown: 5 sec
+        -Stat Change:  N/A
+        -Effect: Hits 2 Characters
+        -Priority: Determined from input
+        -Channeled: N/A
+
+Poison/DoT
+        -Damage: 1
+        -Cooldown: 6 sec
+        -Stat Change: N/A
+        -Effect: Give/Increase enemy’s Poison Status Effect
+        -Priority: Determined from input
+        -Channeled: N/A
+
+Heal
+        -Damage: (16)
+        -Cooldown: 4 sec
+        -Stat Change: N/A
+        -Effect: Increases a friendly character’s health (ticks each second)
+        -Priority: Determined from input
+        -Channeled: 4 sec
+
+Shield
+        -Damage: (40)
+        -Cooldown: 5 sec
+        -Stat Change: N/A
+        -Effect: Shields a single person from damage
+        -Priority: Determined from input
+        -Channeled: N/A
+
+Sacrifice/Guard
+        -Damage: N/A
+        -Cooldown: 8 sec
+        -Stat Change: N/A
+        -Effect: Absorb 50% of all damage done to an Ally (has a duration)
+        -Priority: Determined from input
+        -Channeled: N/A
+
+Buff
+        -Damage: N/A
+        -Cooldown:
+        -Stat Change:  
+        -Effect: 
+        -Priority: Determined from input
+        -Channeled: 
+
+Weaken/Debuff
+        -Damage: 
+        -Cooldown:
+        -Stat Change:  
+        -Effect: 
+        -Priority: Determined from input
+        -Channeled: 
+
+Interrupt:
+        -Damage: N/A
+        -Cooldown: 10 sec
+        -Stat Change: N/A
+        -Effect: Cancels enemy’s Channeled Spell
+        -Priority: Determined from input
+        -Channeled: N/A
+
+Esuna:
+        -Damage: N/A
+        -Cooldown: 8 sec
+        -Stat Change:  N/A
+        -Effect: Removes a friend’s poison Status Effect (Speed and potency determined by talents/stats)
+        -Priority: Determined from input
+        -Channeled: 4 sec
