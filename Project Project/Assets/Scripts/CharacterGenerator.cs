@@ -52,7 +52,7 @@ public class CharacterGenerator : MonoBehaviour {
 
     private string GetRandomStringFromList(List<string> list)
     {
-        int number = Random.Range(0, list.Count + 1);
+        int number = Random.Range(0, list.Count);
         string element = list[number];
         return element;
     }
