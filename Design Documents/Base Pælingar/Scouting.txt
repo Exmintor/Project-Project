@@ -1,0 +1,13 @@
+Scouting:
+
+-Scout stats:
+
+Gætum haft Knowledge/experience eða eitthvað, ákveðnar plánetur/heimar sem að hann getur pullað info um fightera, 
+gæti verið % based yfir flestar plánetur svipað og í FM
+
+Gætum haft Speed/diligence eða eitthvað, væri tala af fighterum sem að hann myndi contributa í scouting poolið. Basically bara hversu hratt scoutar hann playera og 
+hendir þeim í time based scouting poolið per refresh af poolinu.
+
+Gætum haft Accuracy/knowledge eða eitthvað, hversu vel scoutinn estimate'ar current og future ability af hverjum fighter. Gæti bara influencað fightera sem að hann
+contributar í scouting poolið eða kannski myndi þessi stat sameinast milli scouta í overall stat % fyrir alla. Myndi combata að maður fengi bara einn gaur sem að væri
+99% accurate og myndi aldrei leita að scout aftur.
