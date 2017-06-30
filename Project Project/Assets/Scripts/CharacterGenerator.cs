@@ -23,10 +23,7 @@ public class CharacterGenerator : MonoBehaviour {
         races = new List<string>();
         classes = new List<string>();
         backgrounds = new List<string>();
-    }
-    // Use this for initialization
-    void Start ()
-    {
+
         PopulateNames();
         PopulateRaces();
         PopulateClasses();
@@ -37,6 +34,10 @@ public class CharacterGenerator : MonoBehaviour {
             Character newChar = GenerateRandomCharacter();
             CharacterList.Add(newChar);
         }
+    }
+    // Use this for initialization
+    void Start ()
+    {
 	}
 
     private Character GenerateRandomCharacter()

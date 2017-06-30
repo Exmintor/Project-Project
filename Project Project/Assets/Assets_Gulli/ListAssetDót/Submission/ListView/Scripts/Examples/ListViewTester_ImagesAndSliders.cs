@@ -282,30 +282,30 @@
 					for (int i = 0; i < charList.Count; i++)
 					{
                         AddListViewItem("ArilouSkiffIcon", charList[i].Race, charList[i].PlayerClass);
-						//AddListViewItem("ArilouSkiffIcon", "Arilou", "Skiff");
-						//AddListViewItem("ChenjesuBroodhomeIcon", "Chenjesu", "Broodhome");
-						//AddListViewItem("ChmmrAvatarIcon", "Chmmr", "Avatar");
-						//AddListViewItem("UrQuanDreadnoughtIcon", "Ur-Quan", "Dreadnought");
-						//AddListViewItem("DruugeMaulerIcon", "Druuge", "Mauler");
-						//AddListViewItem("EarthlingCruiserIcon", "Earthling", "Cruiser");
-						//AddListViewItem("KorAhMarauderIcon", "Kor-Ah", "Marauder");
-						//AddListViewItem("MelnormeTraderIcon", "Melnorme", "Trader");
-						//AddListViewItem("MmrnmhrmXForm", "Mmrnmhrm", "X-Form");
-						//AddListViewItem("MyconPodshipIcon", "Mycon", "Podship");
-						//AddListViewItem("OrzNemesisIcon", "Orz", "Nemesis");
-						//AddListViewItem("PkunkFuryIcon", "Pkunk", "Fury");
-						//AddListViewItem("ShofixtiScoutIcon", "Shofixti", "Scout");
-						//AddListViewItem("SlylandroProbeIcon", "Slylandro", "Probe");
-						//AddListViewItem("SpathiEluderIcon", "Spathi", "Eluder");
-						//AddListViewItem("SupoxBladeIcon", "Supox", "Blade");
-						//AddListViewItem("SyreenPenetratorIcon", "Syreen", "Penetrator");
-						//AddListViewItem("ThraddashTorchIcon", "Thraddash", "Torch");
-						//AddListViewItem("UmgahDroneIcon", "Umgah", "Drone");
-						//AddListViewItem("UtwigJuggerIcon", "Utwig", "Jugger");
-						//AddListViewItem("VUXIntruderIcon", "VUX", "Intruder");
-						//AddListViewItem("YehatTerminatorIcon", "Yehat", "Terminator");
-						//AddListViewItem("ZoqFotPikStingerIcon", "ZoqFotPik", "Stinger");
-					}
+                        //AddListViewItem("ArilouSkiffIcon", "Arilou", "Skiff");
+                        //AddListViewItem("ChenjesuBroodhomeIcon", "Chenjesu", "Broodhome");
+                        //AddListViewItem("ChmmrAvatarIcon", "Chmmr", "Avatar");
+                        //AddListViewItem("UrQuanDreadnoughtIcon", "Ur-Quan", "Dreadnought");
+                        //AddListViewItem("DruugeMaulerIcon", "Druuge", "Mauler");
+                        //AddListViewItem("EarthlingCruiserIcon", "Earthling", "Cruiser");
+                        //AddListViewItem("KorAhMarauderIcon", "Kor-Ah", "Marauder");
+                        //AddListViewItem("MelnormeTraderIcon", "Melnorme", "Trader");
+                        //AddListViewItem("MmrnmhrmXForm", "Mmrnmhrm", "X-Form");
+                        //AddListViewItem("MyconPodshipIcon", "Mycon", "Podship");
+                        //AddListViewItem("OrzNemesisIcon", "Orz", "Nemesis");
+                        //AddListViewItem("PkunkFuryIcon", "Pkunk", "Fury");
+                        //AddListViewItem("ShofixtiScoutIcon", "Shofixti", "Scout");
+                        //AddListViewItem("SlylandroProbeIcon", "Slylandro", "Probe");
+                        //AddListViewItem("SpathiEluderIcon", "Spathi", "Eluder");
+                        //AddListViewItem("SupoxBladeIcon", "Supox", "Blade");
+                        //AddListViewItem("SyreenPenetratorIcon", "Syreen", "Penetrator");
+                        //AddListViewItem("ThraddashTorchIcon", "Thraddash", "Torch");
+                        //AddListViewItem("UmgahDroneIcon", "Umgah", "Drone");
+                        //AddListViewItem("UtwigJuggerIcon", "Utwig", "Jugger");
+                        //AddListViewItem("VUXIntruderIcon", "VUX", "Intruder");
+                        //AddListViewItem("YehatTerminatorIcon", "Yehat", "Terminator");
+                        //AddListViewItem("ZoqFotPikStingerIcon", "ZoqFotPik", "Stinger");
+                    }
 				}
 				this.ListView.ResumeLayout();
 			}

@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: '"Sacrifice"'
-  cooldown: 0
+  cooldown: 8
   channelTime: 0
   tickTimer: 0
   numTargets: 0
