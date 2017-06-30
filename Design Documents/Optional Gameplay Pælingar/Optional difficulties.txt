@@ -1,0 +1,12 @@
+Optional Gameplay:
+
+-Ironman: Getur ekki save'að og load'að ef að eitthvað neikvætt gerist. Auto-save'ar eftir hvert action/result sem að myndi koma í veg fyrir það. 
+Vinsæll feature í flestum strategy based leikjum.
+
+-Fighter deaths: Þegar að þeir deyja í combat þá eru þeir perma dauðir.
+
+-Difficulty levels: Easy, Normal, Hard etc. Væri þá meira general, hærri stattar á enemy etc.
+
+-Alternate difficulty levels: Gætum gert leikinn erfiðari á ýmissa aðra vegu eins og að messa í resource'um, gera sum resource dramatically erfiðari að fá.
+Gætum líka bætt við resource eða bara feature sem að myndi gera leikinn erfiðari, kæmi betur í ljós hver sá feature/resource yrði í alpha/beta testing.
+
