@@ -11,13 +11,13 @@ public class MainAbility : MonoBehaviour {
     public int numTargets;
 
     public Effect effect;
-    public float increase;
+    public float modifier;
     public float duration;
 	// Use this for initialization
 	void Start ()
     {
         Player player = GetComponent<Player>();
-        StatusEffect statusEffect = new StatusEffect(effect, increase, duration);
+        StatusEffect statusEffect = new StatusEffect(effect, modifier, duration);
         Ability ability = new Ability(ID, cooldown, channelTime, tickTimer, numTargets, statusEffect);
         player.abilities.Add(ability);
 	}

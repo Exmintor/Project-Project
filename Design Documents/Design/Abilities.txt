@@ -104,3 +104,6 @@ Esuna:
         -Effect: Removes a friend’s poison Status Effect (Speed and potency determined by talents/stats)
         -Priority: Determined from input
         -Channeled: 4 sec
+
+(Retaliation) - Warrior? Svarar árás með árás.
+(Reflect) - Synergyst? Tekur skaða og svarar síðan með öflugri counter.

@@ -223,6 +223,11 @@ Prefab:
       propertyPath: playerManager
       value: 
       objectReference: {fileID: 2145364728}
+    - target: {fileID: 114598231344130406, guid: 4e0f1d28f65b1e94184a43fd7cb86223,
+        type: 2}
+      propertyPath: modifier
+      value: 35
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e0f1d28f65b1e94184a43fd7cb86223, type: 2}
   m_IsPrefabParent: 0
@@ -263,7 +268,7 @@ MonoBehaviour:
   tickTimer: 0
   numTargets: 2
   effect: 0
-  increase: 35
+  modifier: 35
   duration: 0
 --- !u!212 &124432455
 SpriteRenderer:
@@ -512,10 +517,10 @@ MonoBehaviour:
   cooldown: 8
   channelTime: 0
   tickTimer: 0
-  numTargets: 0
-  effect: 0
-  increase: 0
-  duration: 0
+  numTargets: 1
+  effect: 3
+  modifier: 0.5
+  duration: 4
 --- !u!1001 &345527944
 Prefab:
   m_ObjectHideFlags: 0
@@ -646,7 +651,7 @@ MonoBehaviour:
   tickTimer: 0
   numTargets: 1
   effect: 0
-  increase: 50
+  modifier: 50
   duration: 0
 --- !u!1001 &620541121
 Prefab:
@@ -878,7 +883,7 @@ MonoBehaviour:
   tickTimer: 0.5
   numTargets: 1
   effect: 2
-  increase: 1
+  modifier: 1
   duration: 10
 --- !u!1001 &846625610
 Prefab:
@@ -962,14 +967,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b40dfff39cbbfa44ca4962b029a90e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 
-  cooldown: 0
+  ID: '"Sacrifice"'
+  cooldown: 8
   channelTime: 0
   tickTimer: 0
-  numTargets: 0
-  effect: 0
-  increase: 0
-  duration: 0
+  numTargets: 1
+  effect: 3
+  modifier: 0.5
+  duration: 4
 --- !u!1 &902727151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,7 +1265,7 @@ MonoBehaviour:
   tickTimer: 1
   numTargets: 1
   effect: 1
-  increase: 8
+  modifier: 8
   duration: 0
 --- !u!114 &2145364728 stripped
 MonoBehaviour:

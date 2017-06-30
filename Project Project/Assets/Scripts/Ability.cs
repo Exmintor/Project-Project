@@ -8,7 +8,7 @@ public class Ability
     private float cooldown;
     private float channelTime;
     private float tickTimer;
-    private int numTargets;
+    public int NumTargets { get; private set; }
     public StatusEffect statusEffect { get; private set; }
 
     public Ability(string id, float cooldown, float channelTime, float tickTimer, int numTargets, StatusEffect statusEffect)
@@ -17,7 +17,7 @@ public class Ability
         this.cooldown = cooldown;
         this.channelTime = channelTime;
         this.tickTimer = tickTimer;
-        this.numTargets = numTargets;
+        this.NumTargets = numTargets;
         this.statusEffect = statusEffect;
     }
 }

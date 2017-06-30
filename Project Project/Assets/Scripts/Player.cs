@@ -56,12 +56,20 @@ public class Player : MonoBehaviour
 
     private void TakeAction()
     {
-        Player target = ChooseTarget();
-        Ability ability = ChooseAbility();
-
-        if (target != null && ability != null)
+        Ability ability = ChooseAbility(); //Fix it so that is chooses relevant Ability
+        List<Player> targets = new List<Player>();
+        for(int i = 0; i < ability.NumTargets; i++)
         {
-            AffectTarget(target, ability);
+            Player target = ChooseTarget(); //Make sure that he doesn't select the same player twice
+            targets.Add(target);
+        }
+
+        if (targets.Count != 0 && ability != null)
+        {
+            foreach(Player target in targets)
+            {
+                AffectTarget(target, this, ability);
+            }
         }
     }
 
@@ -73,17 +81,25 @@ public class Player : MonoBehaviour
 
     private Ability ChooseAbility()
     {
-        //TODO: Fix ability based on new Ability and Status Effect scripts.
         Ability ability = ReturnBasicAttack();
         return ability;
     }
 
-    private void AffectTarget(Player target, Ability ability)
+    private void AffectTarget(Player target, Player user, Ability ability)
     {
         switch(ability.statusEffect.effect)
         {
             case (Effect.Damage):
-                target.TakeDamage(ability.statusEffect.Increase);
+                target.TakeDamage(ability);
+                break;
+            case (Effect.Heal):
+                target.HealYourself(ability); //It doesn't work as channeled ability
+                break;
+            case (Effect.Poison):
+                //target.InflictPoison(ability);
+                break;
+            case (Effect.Redirect):
+                //target.RedirectDecrease(ability, user);
                 break;
         }
     }
@@ -138,9 +154,26 @@ public class Player : MonoBehaviour
         return false;
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(Ability ability)
     {
-        CurrentHealth -= damage;
+        CurrentHealth -= ability.statusEffect.Modifier;
+        if(CurrentHealth < 0)
+        {
+            CurrentHealth = 0;
+        }
+        if(CurrentHealth > maxHealth)
+        {
+            CurrentHealth = maxHealth;
+        }
+    }
+
+    public void HealYourself(Ability ability)
+    {
+        CurrentHealth += ability.statusEffect.Modifier;
+        if(CurrentHealth > maxHealth)
+        {
+            CurrentHealth = maxHealth;
+        }
         if(CurrentHealth < 0)
         {
             CurrentHealth = 0;
