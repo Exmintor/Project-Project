@@ -1,0 +1,40 @@
+http://www.blueplanetbiomes.org/world_biomes.htm
+https://en.wikipedia.org/wiki/Biome
+https://en.wikipedia.org/wiki/Ecosystem
+
+-Forest:
+Temperate broadleaf and mixed forest				https://en.wikipedia.org/wiki/Temperate_broadleaf_and_mixed_forest
+Taiga/boreal/snow forest					https://en.wikipedia.org/wiki/Taiga
+Laurel forest							https://en.wikipedia.org/wiki/Laurel_forest
+Temperate raidforest						https://en.wikipedia.org/wiki/Temperate_rainforest
+Temperate coniferous forest					https://en.wikipedia.org/wiki/Temperate_coniferous_forest
+Tropical and subtropical coniferous forests			https://en.wikipedia.org/wiki/Tropical_and_subtropical_coniferous_forests
+Tropical and subtropical dry broadleaf forests			https://en.wikipedia.org/wiki/Tropical_and_subtropical_dry_broadleaf_forests
+Tropical and subtropical moist broadleaf forests 		https://en.wikipedia.org/wiki/Tropical_and_subtropical_moist_broadleaf_forests
+
+-Ice:
+Tundra 								https://en.wikipedia.org/wiki/Tundra
+
+-Volcanic:
+
+-Desert:
+Deserts and xeric shrublands					https://en.wikipedia.org/wiki/Deserts_and_xeric_shrublands
+Tropical and subtropical grasslands, savannas, and shrublands 	https://en.wikipedia.org/wiki/Tropical_and_subtropical_grasslands,_savannas,_and_shrublands
+
+-Earthlike:
+Temperate grasslands, savannas, and shrublands			https://en.wikipedia.org/wiki/Temperate_grasslands,_savannas,_and_shrublands
+
+-Water/swamp:
+Flooded grasslands and savannas					https://en.wikipedia.org/wiki/Flooded_grasslands_and_savannas
+Mangrove							https://en.wikipedia.org/wiki/Mangrove
+Wetland								https://en.wikipedia.org/wiki/Wetland
+
+-Underwater:
+
+-Underground:
+
+-Mountain/High altitude:
+Montane grasslands and shrublands 				https://en.wikipedia.org/wiki/Montane_grasslands_and_shrublands
+
+-Urban (synthetics?):
+

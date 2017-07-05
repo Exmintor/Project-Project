@@ -1,0 +1,52 @@
+Environment - Desert:
+
+Desert - https://en.wikipedia.org/wiki/Deserts_and_xeric_shrublands
+https://en.wikipedia.org/wiki/Tropical_and_subtropical_grasslands,_savannas,_and_shrublands
+http://www.blueplanetbiomes.org/desert.htm
+
+-Flora
+Barrel Cactus - http://www.blueplanetbiomes.org/desert_plant_page.htm
+Brittle Bush
+Chainfruit Cholla
+Creosote Bush
+Crimson Hedgehog Cactus
+Desert Ironwood
+Joshua Tree
+Jumping Cholla
+Mojave Aster
+Ocotillo
+Palo Verde
+Pancake Prickly Pear Cactus
+Saguaro Cactus
+Soaptree Yucca
+Triangle-leaf Bursage
+
+-Fauna
+Armadillo Lizard - http://www.blueplanetbiomes.org/desert_animal_page.htm
+Banded Gila Monster
+Bobcat
+Cactus Wren
+Camel - https://en.wikipedia.org/wiki/Camel
+Coyote
+Desert Bighorn Sheep
+Desert Kangaroo Rat
+Desert Tortoise
+Javelina
+Cactus Ferruginoug Pygmy Owl
+Sonoran Desert Toad
+Sonoran Pronghorn Antelope
+Thorny Devil
+
+-Atmosphere
+Temperature - Low: 5 Avg: 18 High: 45
+Wind: 25 kph
+Humidity: Dry
+
+-Populace
+San people - https://en.wikipedia.org/wiki/San_people
+Aborigines - https://en.wikipedia.org/wiki/Aboriginal_Australians
+Berbers - https://en.wikipedia.org/wiki/Berbers
+
+-Additional info
+Mars - https://en.wikipedia.org/wiki/Mars
+Titan - https://en.wikipedia.org/wiki/Titan_(moon)
