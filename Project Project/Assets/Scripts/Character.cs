@@ -8,9 +8,9 @@ public class Character
     public string Race { get; private set; }
     public string PlayerClass { get; private set; }
     public string Background { get; private set; }
-    public string Price { get; private set; }
+    public int Price { get; private set; }
 
-    public Character(string name, string race, string playerClass, string background, string price)
+    public Character(string name, string race, string playerClass, string background, int price)
     {
         Name = name;
         Race = race;

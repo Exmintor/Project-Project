@@ -12,7 +12,7 @@ public class CharacterGenerator : MonoBehaviour {
     private List<string> races;
     private List<string> classes;
     private List<string> backgrounds;
-    private List<string> prices;
+    private List<int> prices;
 
     private Random rand;
 
@@ -24,7 +24,7 @@ public class CharacterGenerator : MonoBehaviour {
         races = new List<string>();
         classes = new List<string>();
         backgrounds = new List<string>();
-        prices = new List<string>();
+        prices = new List<int>();
 
         PopulateNames();
         PopulateRaces();
@@ -51,7 +51,7 @@ public class CharacterGenerator : MonoBehaviour {
         string race = GetRandomStringFromList(races);
         string playerClass = GetRandomStringFromList(classes);
         string background = GetRandomStringFromList(backgrounds);
-        string price = GetRandomStringFromList(prices);
+        int price = GetRandomIntFromList(prices);
 
         Character character = new Character(name, race, playerClass, background, price);
         return character;
@@ -61,6 +61,13 @@ public class CharacterGenerator : MonoBehaviour {
     {
         int number = Random.Range(0, list.Count);
         string element = list[number];
+        return element;
+    }
+
+    private int GetRandomIntFromList(List<int> list)
+    {
+        int number = Random.Range(0, list.Count);
+        int element = list[number];
         return element;
     }
 
@@ -102,10 +109,10 @@ public class CharacterGenerator : MonoBehaviour {
 
     private void PopulatePrices()
     {
-        prices.Add("10");
-        prices.Add("20");
-        prices.Add("30");
-        prices.Add("40");
-        prices.Add("50");
+        prices.Add(10);
+        prices.Add(20);
+        prices.Add(30);
+        prices.Add(40);
+        prices.Add(50);
     }
 }
