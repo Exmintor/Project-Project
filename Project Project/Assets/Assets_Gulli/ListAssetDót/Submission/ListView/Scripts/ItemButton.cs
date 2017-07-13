@@ -141,7 +141,7 @@
                 Rass.money -= selectedIndex;
 
                 List<Character> charList = charGen.CharacterList;
-                string pleb = charList[selectedIndex].Price;
+                int pleb = charList[selectedIndex].Price;
 
 
 

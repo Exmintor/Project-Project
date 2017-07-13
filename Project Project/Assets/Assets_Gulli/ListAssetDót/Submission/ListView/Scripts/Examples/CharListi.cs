@@ -341,7 +341,7 @@
 
                     for (int i = 0; i < charList.Count; i++)
                     {
-                        AddListViewItem("ArilouSkiffIcon", charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background, charList[i].Price);
+                        AddListViewItem("ArilouSkiffIcon", charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background, charList[i].Price.ToString());
                         //AddListViewItem("ArilouSkiffIcon", charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background, charList[i].Price);
 
                         //AddListViewItem("ArilouSkiffIcon", "Arilou", "Skiff");
