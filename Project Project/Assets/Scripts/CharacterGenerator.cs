@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum CharacterElement { Name, Race, Class, Background }
+public enum CharacterElement { Name, Race, Class, Background, Price }
 public class CharacterGenerator : MonoBehaviour {
 
     public int NumberOfCharacter;
@@ -12,6 +12,7 @@ public class CharacterGenerator : MonoBehaviour {
     private List<string> races;
     private List<string> classes;
     private List<string> backgrounds;
+    private List<string> prices;
 
     private Random rand;
 
@@ -23,11 +24,13 @@ public class CharacterGenerator : MonoBehaviour {
         races = new List<string>();
         classes = new List<string>();
         backgrounds = new List<string>();
+        prices = new List<string>();
 
         PopulateNames();
         PopulateRaces();
         PopulateClasses();
         PopulateBackgrounds();
+        PopulatePrices();
 
         for (int i = 0; i < NumberOfCharacter; i++)
         {
@@ -38,7 +41,9 @@ public class CharacterGenerator : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-	}
+
+        
+    }
 
     private Character GenerateRandomCharacter()
     {
@@ -46,8 +51,9 @@ public class CharacterGenerator : MonoBehaviour {
         string race = GetRandomStringFromList(races);
         string playerClass = GetRandomStringFromList(classes);
         string background = GetRandomStringFromList(backgrounds);
+        string price = GetRandomStringFromList(prices);
 
-        Character character = new Character(name, race, playerClass, background);
+        Character character = new Character(name, race, playerClass, background, price);
         return character;
     }
 
@@ -92,5 +98,14 @@ public class CharacterGenerator : MonoBehaviour {
         backgrounds.Add("Baker");
         backgrounds.Add("Shoemaker");
         backgrounds.Add("Assassin");
+    }
+
+    private void PopulatePrices()
+    {
+        prices.Add("10");
+        prices.Add("20");
+        prices.Add("30");
+        prices.Add("40");
+        prices.Add("50");
     }
 }

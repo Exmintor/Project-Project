@@ -14,6 +14,9 @@
             public float SliderValue;
             public string ImageKey;
         }
+
+        public string hestur;
+        public GameObject Buy;
         public CharacterGenerator charGen;
         public ListView ListView;
         public GameObject ItemButtonPrefab;
@@ -63,6 +66,14 @@
 
         public void Start()
         {
+
+            //create a new item, name it, and set the parent
+            GameObject newItem = Instantiate(Buy) as GameObject;
+            newItem.name = gameObject.name;
+            newItem.transform.parent = gameObject.transform;
+
+
+
             // Get references to the buttons.
             this.insertItemAtCurrentPositionButton =
                 GameObject.Find("/Canvas/Buttons/InsertItemAtCurrentPositionButton").GetComponent<Button>();
@@ -88,6 +99,7 @@
             this.columnWidths[1] = 150;
             this.columnWidths[2] = 200;
 
+
             this.columnWidthStates = new int[this.columnCount];
             for (int index = 0; index < columnCount; index++)
             {
@@ -98,9 +110,10 @@
             this.ListView.Columns[1].Width = 110;
             this.ListView.Columns[2].Width = 110;
 
-            this.ListView.Columns[3].Width = 0;
+            this.ListView.Columns[3].Width = 110;
 
             this.ListView.Columns[4].Width = 110;
+            this.ListView.Columns[5].Width = 110;
 
             // Create an image list.
             imageList = new ImageList();
@@ -189,7 +202,10 @@
             imageSizeState = imageSizeState ^ 1;
         }
 
-        private ListViewItem CreateListViewItem(string imageKey, string Race, string Class, string Name, string Background)
+
+        //HÉR
+
+        private ListViewItem CreateListViewItem(string imageKey, string Race, string Class, string Name, string Background, string Price)
         {
             string[] subItemTexts = new string[]
         {
@@ -199,7 +215,8 @@
 
             "slider",
 
-            Background
+            Background,
+            Price
 
 
         };
@@ -222,9 +239,10 @@
             return item;
         }
 
-        private void AddListViewItem(string imageKey, string Race, string Class, string Name, string Background)
+        //HÉR
+        private void AddListViewItem(string imageKey, string Race, string Class, string Name, string Background, string Price)
         {
-            ListViewItem item = CreateListViewItem(imageKey, Race, Class, Name, Background);
+            ListViewItem item = CreateListViewItem(imageKey, Race, Class, Name, Background, Price);
             this.ListView.Items.Add(item);
         }
 
@@ -307,11 +325,25 @@
 
 
 
+                    //KEMUR EKKI RÉTT ÚT
+
+                    ColumnHeader Price = new ColumnHeader();
+                    Background.Text = "Price";
+                    this.ListView.Columns.Add(Price);
+
+
+
+
+
+
+
                     List<Character> charList = charGen.CharacterList;
 
                     for (int i = 0; i < charList.Count; i++)
                     {
-                        AddListViewItem("ArilouSkiffIcon", charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background);
+                        AddListViewItem("ArilouSkiffIcon", charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background, charList[i].Price);
+                        //AddListViewItem("ArilouSkiffIcon", charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background, charList[i].Price);
+
                         //AddListViewItem("ArilouSkiffIcon", "Arilou", "Skiff");
                         //AddListViewItem("ChenjesuBroodhomeIcon", "Chenjesu", "Broodhome");
                         //AddListViewItem("ChmmrAvatarIcon", "Chmmr", "Avatar");
@@ -335,11 +367,14 @@
                         //AddListViewItem("VUXIntruderIcon", "VUX", "Intruder");
                         //AddListViewItem("YehatTerminatorIcon", "Yehat", "Terminator");
                         //AddListViewItem("ZoqFotPikStingerIcon", "ZoqFotPik", "Stinger");
+                        
                     }
                 }
                 this.ListView.ResumeLayout();
             }
         }
+
+        
 
         public void OnAddNewItemButtonClicked()
         {
@@ -347,11 +382,14 @@
 
             //SKOÐA NOGGER
 
-            AddListViewItem("ZoqFotPikStingerIcon", "NEW SPECIES", "SHIP ADDED (" + this.itemAddedCount + ")", "NAME", "BACKGROUND");
+            AddListViewItem("ZoqFotPikStingerIcon", "NEW SPECIES", "SHIP ADDED (" + this.itemAddedCount + ")", "NAME", "BACKGROUND", "PRICE");
 
             // Select the new item and scroll to it.
             this.ListView.SelectedIndices.Add(this.ListView.Items.Count - 1);
             this.ListView.SetVerticalScrollBarValue(1);
+            
+
+          
         }
 
         public void OnInsertItemAtCurrentPositionButtonClicked()
@@ -362,14 +400,16 @@
 
             //SKOÐA NOGGER
 
-            ListViewItem item = CreateListViewItem("ZoqFotPikStingerIcon", "NEW SPECIES", "SHIP INSERTED (" + this.itemInsertedCount + ")", "NAME", "BACKGROUND");
+            ListViewItem item = CreateListViewItem("ZoqFotPikStingerIcon", "NEW SPECIES", "SHIP INSERTED (" + this.itemInsertedCount + ")", "NAME", "BACKGROUND", "Price");
             this.ListView.Items.Insert(selectedIndex, item);
+
         }
 
         public void OnRemoveItemAtCurrentPositionButtonClicked()
         {
             int selectedIndex = this.ListView.SelectedIndices[0];
             this.ListView.Items.RemoveAt(selectedIndex);
+            
         }
 
         public void Update()
@@ -387,6 +427,8 @@
 
             this.insertItemAtCurrentPositionButton.interactable = isItemSelected;
             this.removeItemAtCurrentPositionButton.interactable = isItemSelected;
+
+  
         }
 
         private void RefreshToggleColumnClickButtonText()
@@ -446,8 +488,17 @@
             private int CompareSubItemsByText(ListViewItem.ListViewSubItem a, ListViewItem.ListViewSubItem b)
             {
                 return string.Compare(a.Text, b.Text);
+                
             }
+
+            public string hestur(ListViewItem.ListViewSubItem a, ListViewItem.ListViewSubItem b)
+            {
+               return string.Copy(a.Text);
+
+            }
+
         }
+
 
         private void OnColumnClick(object sender, ListView.ColumnClickEventArgs e)
         {

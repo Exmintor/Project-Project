@@ -7,10 +7,18 @@
 	using UnityEngine;
 	using UnityEngine.UI;
 	using UnityEngine.EventSystems;
+    using Examples;
 
-	public class ItemButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+    public class ItemButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 	{
-		public Image BackgroundImage;
+
+
+        public CharacterGenerator charGen;
+        public script CharListi; 
+        public ListView ListView;
+        public GameObject ListViewTester;
+
+        public Image BackgroundImage;
 		public Image HorizontalBorderImage;
 		public Image VerticalBorderImage;
 		public Text Text;
@@ -117,10 +125,34 @@
 
 		public void OnPointerClick(PointerEventData eventData)
 		{
-			if (this.ListViewItem != null)
+
+            if (this.ListViewItem != null)
 			{
 				this.ListViewItem.Owner.OnSubItemClicked(eventData, this);
-			}
+
+                //Index:
+
+                GameObject Kappa = GameObject.Find("ListViewTester");
+                CharListi Keepo = Kappa.GetComponent<CharListi>();
+                int selectedIndex = Keepo.ListView.SelectedIndices[0];
+
+                GameObject Peningur = GameObject.Find("Money");
+                MoneyScript Rass = Peningur.GetComponent<MoneyScript>();
+                Rass.money -= selectedIndex;
+
+                List<Character> charList = charGen.CharacterList;
+                string pleb = charList[selectedIndex].Price;
+
+
+
+
+
+
+
+
+
+
+            }
 		}
 	}
 }

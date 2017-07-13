@@ -1,12 +1,14 @@
 fileFormatVersion: 2
 guid: 5e0bc41a5402d5b46bd482847c7bf89a
-timeCreated: 1498773662
+timeCreated: 1499733904
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
+  - Buy: {fileID: 1957670746707264, guid: 0f9563c4f9a2f6f4cb3f5ea6e53d794c, type: 2}
+  - charGen: {instanceID: 0}
   - ListView: {instanceID: 0}
-  - ItemButtonPrefab: {instanceID: 0}
+  - ItemButtonPrefab: {fileID: 100000, guid: 22ce7c3f9efdf184392c18eef7c0d22c, type: 2}
   - AndrosynthGuardianIcon: {fileID: 21300000, guid: 1ec57f276ba1cce4e81caaf77c27ffbc,
       type: 3}
   - ArilouSkiffIcon: {fileID: 21300000, guid: 1ec57f276ba1cce4e81caaf77c27ffbc, type: 3}
