@@ -19,6 +19,8 @@ Sorcerer:
 -Frost (Magic Tank?, Langt Stun)
 -Fire (Single Target, DoT?)
 Aukalega: buffs/debuffs? defensive? passives?
+Ability possibilities: Chain lightning? Ignite? Frost tomb?
+Talent combo pæling: Elemental bolt?
 
 Barbarian:
 -Single target dps (DoT?, stun?)
@@ -33,10 +35,15 @@ Poison gæji:
 -Utility? (stuns?)
 -Passives?
 Aukalega: defensive? buff? physical?
+Ability possibilities: Frussar út DoTum eins og negrar frussa út kynsjúkdómum
 
 Ranged (byssur?):
 
 
--Support-
+-Support og Utility-
 
+Basic Healer:
 
+Buffer:
+
+Saboteur:
