@@ -471,18 +471,7 @@
                 ListViewItem.ListViewSubItem subItem1 = listViewItem1.SubItems[this.columnIndex];
                 ListViewItem.ListViewSubItem subItem2 = listViewItem2.SubItems[this.columnIndex];
 
-                switch (this.columnIndex)
-                {
-                    // Column 2 contains a slider, so compare by slider value rather than text.
-                    case 2:
-                        {
-                            float diff = GetItemSliderValue(listViewItem1) - GetItemSliderValue(listViewItem2);
-                            return (int)(diff * 1000);
-                        }
-
-                    // All other columns, we can simply compare by text/string.
-                    default: return CompareSubItemsByText(subItem1, subItem2);
-                }
+                return CompareSubItemsByText(subItem1, subItem2);
             }
 
             private int CompareSubItemsByText(ListViewItem.ListViewSubItem a, ListViewItem.ListViewSubItem b)
