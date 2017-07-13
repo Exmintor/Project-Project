@@ -17,8 +17,8 @@ public class MainAbility : MonoBehaviour {
 	void Start ()
     {
         Player player = GetComponent<Player>();
-        StatusEffect statusEffect = new StatusEffect(effect, modifier, duration);
-        Ability ability = new Ability(ID, cooldown, channelTime, tickTimer, numTargets, statusEffect);
+        StatusEffect statusEffect = new StatusEffect(effect, modifier, duration, tickTimer);
+        Ability ability = new Ability(ID, cooldown, channelTime, numTargets, statusEffect);
         player.abilities.Add(ability);
 	}
 }

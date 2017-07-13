@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     public List<Ability> abilities { get; private set; }
     private List<Player> targets;
 
+    private List<StatusEffect> currentStatusEffects;
+
     private float timeSinceLastAttack = 0;
     public float timeBetweenAttacks;
 
@@ -27,6 +29,7 @@ public class Player : MonoBehaviour
     {
         abilities = new List<Ability>();
         targets = new List<Player>();
+        currentStatusEffects = new List<StatusEffect>();
     }
     // Use this for initialization
     void Start()
@@ -46,12 +49,14 @@ public class Player : MonoBehaviour
             timeSinceLastAttack = 0;
             TakeAction();
         }
+
+        DealWithStatusEffects();
     }
 
     private void AddBasicAttack()
     {
-        StatusEffect basicDamage = new StatusEffect(Effect.Damage, 10, 0);
-        abilities.Add(new Ability("Basic Attack", 0, 0, 0, 1, basicDamage));
+        StatusEffect basicDamage = new StatusEffect(Effect.Damage, 10, 0, 0);
+        abilities.Add(new Ability("Basic Attack", 0, 0, 1, basicDamage));
     }
 
     private void TakeAction()
@@ -85,21 +90,44 @@ public class Player : MonoBehaviour
         return ability;
     }
 
+    private void DealWithStatusEffects()
+    {
+        foreach(StatusEffect status in currentStatusEffects)
+        {
+            switch(status.effect)
+            {
+                case Effect.Poison:
+                    status.durationTimer += Time.deltaTime;
+                    status.timeSinceLastTick += Time.deltaTime;
+                    if (status.durationTimer >= status.Duration)
+                    {
+                        //Remove status effect from list
+                    }
+                    else if(status.timeSinceLastTick >= status.TickTimer)
+                    {
+                        TakeDamage(status.Modifier);
+                    }
+                    break;
+            }
+        }
+    }
+
     private void AffectTarget(Player target, Player user, Ability ability)
     {
         switch(ability.statusEffect.effect)
         {
             case (Effect.Damage):
-                target.TakeDamage(ability);
+                target.TakeDamage(ability.statusEffect.Modifier);
                 break;
             case (Effect.Heal):
                 target.HealYourself(ability); //It doesn't work as channeled ability
                 break;
             case (Effect.Poison):
-                //target.InflictPoison(ability);
+                target.InflictPoison(ability);
                 break;
             case (Effect.Redirect):
-                //target.RedirectDecrease(ability, user);
+                //this.RedirectIncrease(ability); 
+                //target.RedirectDecrease(ability);
                 break;
         }
     }
@@ -154,9 +182,9 @@ public class Player : MonoBehaviour
         return false;
     }
 
-    public void TakeDamage(Ability ability)
+    public void TakeDamage(float damage)
     {
-        CurrentHealth -= ability.statusEffect.Modifier;
+        CurrentHealth -= damage;
         if(CurrentHealth < 0)
         {
             CurrentHealth = 0;
@@ -178,5 +206,10 @@ public class Player : MonoBehaviour
         {
             CurrentHealth = 0;
         }
+    }
+
+    public void InflictPoison(Ability ability)
+    {
+        currentStatusEffects.Add(ability.statusEffect);
     }
 }

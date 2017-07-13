@@ -8,12 +8,17 @@ public class StatusEffect
 {
     public Effect effect { get; private set; }
     public float Modifier { get; private set; }
-    private float duration;
+    public  float TickTimer { get; private set; }
+    public float Duration { get; private set; }
 
-    public StatusEffect(Effect effect, float modifier, float duration)
+    public float durationTimer = 0;
+    public float timeSinceLastTick = 0;
+
+    public StatusEffect(Effect effect, float modifier, float tickTimer, float duration)
     {
         this.effect = effect;
         this.Modifier = modifier;
-        this.duration = duration;
+        this.TickTimer = tickTimer;
+        this.Duration = duration;
     }
 }
