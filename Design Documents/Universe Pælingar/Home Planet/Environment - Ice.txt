@@ -13,6 +13,7 @@ Diamond-leaf Willow - http://www.blueplanetbiomes.org/diamond_leaf_willow.htm
 Labrador Tea - http://www.blueplanetbiomes.org/labrador_tea.htm
 Pasque Flower - http://www.blueplanetbiomes.org/pasque_flower.htm
 Tufted Saxifrage - http://www.blueplanetbiomes.org/tufted_saxifrage.htm
+antarctic plants - https://www.bas.ac.uk/about/antarctica/wildlife/plants/
 
 -Fauna
 Arctic Fox - http://www.blueplanetbiomes.org/arctic_fox.htm
@@ -23,6 +24,9 @@ Harlequin Duck - http://www.blueplanetbiomes.org/harlequin_duck.htm
 Musk Ox - http://www.blueplanetbiomes.org/musk_ox.htm
 Polar Bear - http://www.blueplanetbiomes.org/polar_bear.htm
 Snowy Owl - http://www.blueplanetbiomes.org/snowy_owl.htm
+arctic dýr - http://www.enchantedlearning.com/coloring/arcticanimals.shtml
+antarctic dýr - http://www.enchantedlearning.com/school/Antarctica/Animalprintouts.shtml
+tundra dýr - http://www.enchantedlearning.com/biomes/tundra/tundra.shtml
 
 -Atmosphere
 Temperature - Low: -70 Avg: -18 High: 12

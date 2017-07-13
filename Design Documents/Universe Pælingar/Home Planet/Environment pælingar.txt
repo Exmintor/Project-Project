@@ -1,6 +1,9 @@
 http://www.blueplanetbiomes.org/world_biomes.htm
 https://en.wikipedia.org/wiki/Biome
 https://en.wikipedia.org/wiki/Ecosystem
+https://www.nps.gov/romo/learn/nature/animals.htm
+https://a-z-animals.com/reference/habitats/
+http://www.enchantedlearning.com/biomes/
 
 -Forest:
 Temperate broadleaf and mixed forest				https://en.wikipedia.org/wiki/Temperate_broadleaf_and_mixed_forest

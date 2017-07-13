@@ -3,10 +3,16 @@ Environment - Volcanic:
 
 
 -Flora
-
+Coffee plants - http://blogs.agu.org/magmacumlaude/2011/02/02/foliage-vs-geology-plants-on-volcanoes/
+Grapevines
+Silversword
+Poor man's umbrella
+Moss
+https://www.to-hawaii.com/flora.php
+http://wildlifeofhawaii.com/flowers/
 
 -Fauna
-
+https://www.volcanogallery.com/hawaii1.htm
 
 -Atmosphere
 
@@ -15,3 +21,5 @@ Environment - Volcanic:
 
 
 -Additional info
+Ash
+Acid rain

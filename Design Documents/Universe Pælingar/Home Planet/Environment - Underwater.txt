@@ -16,9 +16,15 @@ Seaweed
 -Fauna
 https://en.wikipedia.org/wiki/Aquatic_mammal
 https://en.wikipedia.org/wiki/Marine_mammal
+dýr - http://www.enchantedlearning.com/biomes/ocean/twilight/
+dýr - http://www.enchantedlearning.com/biomes/coralreef/coralreef.shtml
+strandardýr - http://www.enchantedlearning.com/biomes/intertidal/intertidal.shtml
+dýr - http://www.enchantedlearning.com/biomes/ocean/sunlit/
 
 -Atmosphere
 Coastal Temperature - Avg: 10-35
+https://a-z-animals.com/reference/coral-reefs/
+https://a-z-animals.com/reference/oceans/
 
 -Populace
 
