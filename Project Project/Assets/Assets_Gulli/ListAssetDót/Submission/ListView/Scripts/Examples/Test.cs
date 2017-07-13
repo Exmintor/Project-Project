@@ -19,15 +19,13 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         GameObject Kappa = GameObject.Find("ListViewTester");
         CharListi Keepo = Kappa.GetComponent<CharListi>();
-        string pleb = Keepo.hestur;
-
+        string pleb = Keepo.buyTextTest;
 
 
         txt.text = pleb;
-        currentscore = PlayerPrefs.GetInt("TOTALSCORE");
-        PlayerPrefs.SetInt("SHOWSTARTSCORE", currentscore);
+        //currentscore = PlayerPrefs.GetInt("TOTALSCORE");
+        //PlayerPrefs.SetInt("SHOWSTARTSCORE", currentscore);
     }
 }

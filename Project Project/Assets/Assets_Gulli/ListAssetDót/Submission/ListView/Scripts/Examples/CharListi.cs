@@ -49,6 +49,10 @@
         private Button insertItemAtCurrentPositionButton;
         private Button removeItemAtCurrentPositionButton;
         private Button toggleColumnClickModeButton;
+        //Okkar kodi
+        private Button buyButton;
+        public string buyTextTest;
+        //-----
         private int itemAddedCount = 0;
         private int itemInsertedCount = 0;
         private bool clickingAColumnSorts = true;
@@ -81,6 +85,8 @@
                 GameObject.Find("/Canvas/Buttons/RemoveItemAtCurrentPositionButton").GetComponent<Button>();
             this.toggleColumnClickModeButton =
                 GameObject.Find("/Canvas/Buttons/ToggleColumnClickModeButton").GetComponent<Button>();
+            //Okkar kodi
+            this.buyButton = GameObject.Find("/Canvas/Buy").GetComponent<Button>();
 
             // Add some test data (columns and items).
             this.AddTestData();
@@ -113,7 +119,7 @@
             this.ListView.Columns[3].Width = 110;
 
             this.ListView.Columns[4].Width = 110;
-            this.ListView.Columns[5].Width = 110;
+            //this.ListView.Columns[5].Width = 110;
 
             // Create an image list.
             imageList = new ImageList();
@@ -212,9 +218,6 @@
             Race,
             Class,
             Name,
-
-            "slider",
-
             Background,
             Price
 
@@ -246,42 +249,42 @@
             this.ListView.Items.Add(item);
         }
 
-        private static float GetItemSliderValue(ListViewItem item)
-        {
-            RectTransform customControl = item.SubItems[3].CustomControl;
-            if (customControl != null)
-            {
-                return customControl.gameObject.GetComponentInChildren<Scrollbar>().value;
-            }
-            else
-            {
-                return (item.Tag as ItemData).SliderValue;
-            }
-        }
+        //private static float GetItemSliderValue(ListViewItem item)
+        //{
+        //    RectTransform customControl = item.SubItems[3].CustomControl;
+        //    if (customControl != null)
+        //    {
+        //        return customControl.gameObject.GetComponentInChildren<Scrollbar>().value;
+        //    }
+        //    else
+        //    {
+        //        return (item.Tag as ItemData).SliderValue;
+        //    }
+        //}
 
         private void OnItemBecameVisible(ListViewItem item)
         {
-            // Create a slider custom control and add it to the third subitem.
-            var subItem = item.SubItems[3];
-            GameObject slider = GameObject.Instantiate(this.SliderPrefab) as GameObject;
-            subItem.CustomControl = slider.transform as RectTransform;
+            //Create a slider custom control and add it to the third subitem.
+            //var subItem = item.SubItems[3];
+            //GameObject slider = GameObject.Instantiate(this.SliderPrefab) as GameObject;
+            //subItem.CustomControl = slider.transform as RectTransform;
 
-            ItemData itemData = item.Tag as ItemData;
-            slider.GetComponentInChildren<Scrollbar>().value = itemData.SliderValue;
+            //ItemData itemData = item.Tag as ItemData;
+            //slider.GetComponentInChildren<Scrollbar>().value = itemData.SliderValue;
         }
 
         private void OnItemBecameInvisible(ListViewItem item)
         {
-            var subItem = item.SubItems[3];
-            GameObject slider = subItem.CustomControl.gameObject;
+            //var subItem = item.SubItems[3];
+            //GameObject slider = subItem.CustomControl.gameObject;
 
-            // Save the value of the slider so that it can be restored
-            // when the item becomes visible again.
-            ItemData itemData = item.Tag as ItemData;
-            itemData.SliderValue = slider.GetComponentInChildren<Scrollbar>().value;
+            //// Save the value of the slider so that it can be restored
+            //// when the item becomes visible again.
+            //ItemData itemData = item.Tag as ItemData;
+            //itemData.SliderValue = slider.GetComponentInChildren<Scrollbar>().value;
 
-            // Destroy the slider custom control.
-            GameObject.Destroy(subItem.CustomControl.gameObject);
+            //// Destroy the slider custom control.
+            //GameObject.Destroy(subItem.CustomControl.gameObject);
         }
 
         private void AddTestData()
@@ -310,9 +313,9 @@
 
                     //ÞESSI ER FALINN (ÚTAF SLIDER)
 
-                    ColumnHeader AmountInFleetColumn = new ColumnHeader();
-                    AmountInFleetColumn.Text = "Amount In Fleet";
-                    this.ListView.Columns.Add(AmountInFleetColumn);
+                    //ColumnHeader AmountInFleetColumn = new ColumnHeader();
+                    //AmountInFleetColumn.Text = "Amount In Fleet";
+                    //this.ListView.Columns.Add(AmountInFleetColumn);
 
 
 
@@ -324,17 +327,11 @@
 
 
 
-
                     //KEMUR EKKI RÉTT ÚT
 
                     ColumnHeader Price = new ColumnHeader();
-                    Background.Text = "Price";
+                    Price.Text = "Price";
                     this.ListView.Columns.Add(Price);
-
-
-
-
-
 
 
                     List<Character> charList = charGen.CharacterList;
@@ -412,6 +409,13 @@
             
         }
 
+        //Okkar kodi
+        public void OnBuyButtonClicked()
+        {
+            int selectedIndex = this.ListView.SelectedIndices[0];
+            buyTextTest = this.ListView.Items[selectedIndex].SubItems[0].Text;
+        }
+
         public void Update()
         {
             // Some buttons require a selection, so disable them if there is no 
@@ -427,6 +431,8 @@
 
             this.insertItemAtCurrentPositionButton.interactable = isItemSelected;
             this.removeItemAtCurrentPositionButton.interactable = isItemSelected;
+            //Okkar kodi
+            this.buyButton.interactable = isItemSelected;
 
   
         }
