@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 10be6d3ec75a5cd40a2fdb637c23a7d1
+guid: c7e99f8083ba3fb438f8e875ee0b2fa5
 labels:
 - listview
 - ui
@@ -10,4 +10,7 @@ labels:
 - rankings
 - leaderboards
 NativeFormatImporter:
+  mainObjectFileID: -1
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

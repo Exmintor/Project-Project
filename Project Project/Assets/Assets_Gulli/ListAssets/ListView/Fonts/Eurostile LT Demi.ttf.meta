@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f0b1088b7efd90344a447602ac622c77
+guid: 08d8ebbbf32043e4a8871450d400991e
 labels:
 - listview
 - ui
@@ -10,14 +10,20 @@ labels:
 - rankings
 - leaderboards
 TrueTypeFontImporter:
-  serializedVersion: 2
+  serializedVersion: 4
   fontSize: 16
   forceTextureCase: -2
-  characterSpacing: 1
-  characterPadding: 0
+  characterSpacing: 0
+  characterPadding: 1
   includeFontData: 1
-  use2xBehaviour: 0
-  fontNames: []
+  fontName: Eurostile LT
+  fontNames:
+  - Eurostile LT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f0b1088b7efd90344a447602ac622c77, type: 3}
   customCharacters: 
   fontRenderingMode: 0
+  ascentCalculationMode: 1
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

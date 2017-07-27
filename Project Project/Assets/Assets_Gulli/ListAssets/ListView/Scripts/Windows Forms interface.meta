@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 01489022eb234394f80ec853316bdf3c
+guid: 85c24939220fff64299b9e435214e641
 labels:
 - listview
 - ui
@@ -12,3 +12,5 @@ labels:
 folderAsset: yes
 DefaultImporter:
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

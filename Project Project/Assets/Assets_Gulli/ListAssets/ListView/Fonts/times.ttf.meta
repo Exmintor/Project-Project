@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a42bf1b37f2bc8d4f8384e1d19597ec1
+guid: d5348df3294ae774c8c3b60a57758fc0
 labels:
 - listview
 - ui
@@ -10,14 +10,20 @@ labels:
 - rankings
 - leaderboards
 TrueTypeFontImporter:
-  serializedVersion: 2
+  serializedVersion: 4
   fontSize: 16
   forceTextureCase: -2
-  characterSpacing: 1
-  characterPadding: 0
+  characterSpacing: 0
+  characterPadding: 1
   includeFontData: 1
-  use2xBehaviour: 0
-  fontNames: []
+  fontName: Times New Roman
+  fontNames:
+  - Times New Roman
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a42bf1b37f2bc8d4f8384e1d19597ec1, type: 3}
   customCharacters: 
   fontRenderingMode: 0
+  ascentCalculationMode: 1
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

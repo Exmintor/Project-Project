@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 158ae35c08a8d554e9b62c979b971b18
+guid: f8211c7eb1e847147bf4c8b878a31ac9
 labels:
 - listview
 - ui
@@ -15,3 +15,5 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
