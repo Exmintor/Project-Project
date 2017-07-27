@@ -1,0 +1,32 @@
+Decision Stat - 
+Perception eða Intellect
+Mögulega Deception stat?
+
+Decision - AI fljótar ákvarðanir (hjálpar að velja target og/eða )
+Reflexes - AI fljótur að bregðast við því sem er búið að gerast (hjálpar að reacta)
+Teamwork - AI hugsar um hvað er að gerast við liðið eða bara sig sjálfan (Personality)
+
+Hækkar með experience en ekki eftir hvað spilari setur í stattið.
+
+
+Personality traits - mismunandi hegðun eftir personality. Mismunandi líkur á personalitites eftir race (og/eða background).
+
+
+Offensive Teamwork
+Defensive Teamwork
+
+Leadership? - Player getur mögulega assignað þann með besta decision stat sem leader - aðrir fylgja honum
+
+Mismunandi personality type eru misgóðir í að fylgja leader.
+
+Förum varlega í leadership - testa vel
+
+Combat stats og Personality Stats
+
+Personality Stats-
+-Leader (Góður í að taka ákvarðanir)
+-Hardworking (Meira/hraðar training)
+-Defiant (ólíklegri til að fylgja leader)
+
+
+Ágæt scout pæling að hafa letter grade í stað þess að sjá nákvæm stött (bara hafa vague, en ekki precise)

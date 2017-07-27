@@ -13,12 +13,8 @@ namespace Endgame
 	using System;
 
 	public partial class ListView : MonoBehaviour
-    {
-
-
-        public GameObject Money;
-        public script MoneyScript;
-    public GameObject ColumnPanelPrefab;
+	{
+		public GameObject ColumnPanelPrefab;
 		public GameObject ItemButtonPrefab;
 		private RectTransform columnsPanel;
 		private RectTransform columns;
@@ -363,15 +359,10 @@ namespace Endgame
 			this.initialised = true;
 		}
 
-        //HGAHAHAHAHAHAHAH
-
-        public void Start()
+		public void Start()
 		{
 			CheckCanvasRenderMode();
-
-
-           
-        }
+		}
 
 		void Update()
 		{
@@ -1370,16 +1361,7 @@ namespace Endgame
 			if (this.SubItemClicked != null)
 			{
 				this.SubItemClicked(pointerEventData, itemButton.ListViewSubItem);
-
-                //VÁÁÁÁÁ
-
-                /*
-                GameObject Peningur = GameObject.Find("Money");
-                MoneyScript Rass = Peningur.GetComponent<MoneyScript>();
-                Rass.money -= 10;
-
-    */
-            }
+			}
 		}
 
 		private void OnHeaderClicked(ColumnPanel columnPanel)
@@ -1567,9 +1549,7 @@ namespace Endgame
 				itemButton.Text.color =
 					selected ? this.SelectedItemTextColor : itemButton.ListViewSubItem.ForeColor;
 			}
-            
-
-        }
+		}
 
 		public void SuspendLayout()
 		{

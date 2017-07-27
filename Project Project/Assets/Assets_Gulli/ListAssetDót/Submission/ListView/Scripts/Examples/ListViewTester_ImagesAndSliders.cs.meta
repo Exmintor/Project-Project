@@ -1,10 +1,38 @@
 fileFormatVersion: 2
-guid: da9bae0dddfe8e646a2908caa5da662d
-timeCreated: 1499532455
+guid: 5e0bc41a5402d5b46bd482847c7bf89a
+timeCreated: 1498773662
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ListView: {instanceID: 0}
+  - ItemButtonPrefab: {instanceID: 0}
+  - AndrosynthGuardianIcon: {fileID: 21300000, guid: 1ec57f276ba1cce4e81caaf77c27ffbc,
+      type: 3}
+  - ArilouSkiffIcon: {fileID: 21300000, guid: 1ec57f276ba1cce4e81caaf77c27ffbc, type: 3}
+  - ChenjesuBroodhomeIcon: {instanceID: 0}
+  - ChmmrAvatarIcon: {instanceID: 0}
+  - UrQuanDreadnoughtIcon: {instanceID: 0}
+  - DruugeMaulerIcon: {instanceID: 0}
+  - EarthlingCruiserIcon: {instanceID: 0}
+  - KorAhMarauderIcon: {instanceID: 0}
+  - MelnormeTraderIcon: {instanceID: 0}
+  - MmrnmhrmXForm: {instanceID: 0}
+  - MyconPodshipIcon: {instanceID: 0}
+  - OrzNemesisIcon: {instanceID: 0}
+  - PkunkFuryIcon: {instanceID: 0}
+  - ShofixtiScoutIcon: {instanceID: 0}
+  - SlylandroProbeIcon: {instanceID: 0}
+  - SpathiEluderIcon: {instanceID: 0}
+  - SupoxBladeIcon: {instanceID: 0}
+  - SyreenPenetratorIcon: {instanceID: 0}
+  - ThraddashTorchIcon: {instanceID: 0}
+  - UmgahDroneIcon: {instanceID: 0}
+  - UtwigJuggerIcon: {instanceID: 0}
+  - VUXIntruderIcon: {instanceID: 0}
+  - YehatTerminatorIcon: {instanceID: 0}
+  - ZoqFotPikStingerIcon: {instanceID: 0}
+  - SliderPrefab: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

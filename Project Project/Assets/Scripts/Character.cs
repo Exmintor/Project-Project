@@ -9,13 +9,15 @@ public class Character
     public string PlayerClass { get; private set; }
     public string Background { get; private set; }
     public int Price { get; private set; }
+    public int Id { get; set; }
 
-    public Character(string name, string race, string playerClass, string background, int price)
+    public Character(string name, string race, string playerClass, string background, int price, int id)
     {
         Name = name;
         Race = race;
         PlayerClass = playerClass;
         Background = background;
         Price = price;
+        Id = id;
     }
 }

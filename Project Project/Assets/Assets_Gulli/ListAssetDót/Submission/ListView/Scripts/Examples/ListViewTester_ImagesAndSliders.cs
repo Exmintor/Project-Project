@@ -3,7 +3,6 @@
 	using UnityEngine;
 	using UnityEngine.UI;
 	using System.Collections;
-    using System.Collections.Generic;
 	using UnityEngine.EventSystems;
 	using Endgame;
 
@@ -14,7 +13,7 @@
 			public float SliderValue;
 			public string ImageKey;
 		}
-        public CharacterGenerator charGen;
+
 		public ListView ListView;
 		public GameObject ItemButtonPrefab;
 		public Sprite AndrosynthGuardianIcon;
@@ -277,35 +276,35 @@
 					AmountInFleetColumn.Text = "Amount In Fleet";
 					this.ListView.Columns.Add(AmountInFleetColumn);
 
+					CharacterGenerator charGen = GetComponent<CharacterGenerator> ();
 					List<Character> charList = charGen.CharacterList;
 
-					for (int i = 0; i < charList.Count; i++)
+					for (int i = 0; i < 200; i++)
 					{
-                        AddListViewItem("ArilouSkiffIcon", charList[i].Race, charList[i].PlayerClass);
-                        //AddListViewItem("ArilouSkiffIcon", "Arilou", "Skiff");
-                        //AddListViewItem("ChenjesuBroodhomeIcon", "Chenjesu", "Broodhome");
-                        //AddListViewItem("ChmmrAvatarIcon", "Chmmr", "Avatar");
-                        //AddListViewItem("UrQuanDreadnoughtIcon", "Ur-Quan", "Dreadnought");
-                        //AddListViewItem("DruugeMaulerIcon", "Druuge", "Mauler");
-                        //AddListViewItem("EarthlingCruiserIcon", "Earthling", "Cruiser");
-                        //AddListViewItem("KorAhMarauderIcon", "Kor-Ah", "Marauder");
-                        //AddListViewItem("MelnormeTraderIcon", "Melnorme", "Trader");
-                        //AddListViewItem("MmrnmhrmXForm", "Mmrnmhrm", "X-Form");
-                        //AddListViewItem("MyconPodshipIcon", "Mycon", "Podship");
-                        //AddListViewItem("OrzNemesisIcon", "Orz", "Nemesis");
-                        //AddListViewItem("PkunkFuryIcon", "Pkunk", "Fury");
-                        //AddListViewItem("ShofixtiScoutIcon", "Shofixti", "Scout");
-                        //AddListViewItem("SlylandroProbeIcon", "Slylandro", "Probe");
-                        //AddListViewItem("SpathiEluderIcon", "Spathi", "Eluder");
-                        //AddListViewItem("SupoxBladeIcon", "Supox", "Blade");
-                        //AddListViewItem("SyreenPenetratorIcon", "Syreen", "Penetrator");
-                        //AddListViewItem("ThraddashTorchIcon", "Thraddash", "Torch");
-                        //AddListViewItem("UmgahDroneIcon", "Umgah", "Drone");
-                        //AddListViewItem("UtwigJuggerIcon", "Utwig", "Jugger");
-                        //AddListViewItem("VUXIntruderIcon", "VUX", "Intruder");
-                        //AddListViewItem("YehatTerminatorIcon", "Yehat", "Terminator");
-                        //AddListViewItem("ZoqFotPikStingerIcon", "ZoqFotPik", "Stinger");
-                    }
+						AddListViewItem("ArilouSkiffIcon", "Arilou", "Skiff");
+						AddListViewItem("ChenjesuBroodhomeIcon", "Chenjesu", "Broodhome");
+						AddListViewItem("ChmmrAvatarIcon", "Chmmr", "Avatar");
+						AddListViewItem("UrQuanDreadnoughtIcon", "Ur-Quan", "Dreadnought");
+						AddListViewItem("DruugeMaulerIcon", "Druuge", "Mauler");
+						AddListViewItem("EarthlingCruiserIcon", "Earthling", "Cruiser");
+						AddListViewItem("KorAhMarauderIcon", "Kor-Ah", "Marauder");
+						AddListViewItem("MelnormeTraderIcon", "Melnorme", "Trader");
+						AddListViewItem("MmrnmhrmXForm", "Mmrnmhrm", "X-Form");
+						AddListViewItem("MyconPodshipIcon", "Mycon", "Podship");
+						AddListViewItem("OrzNemesisIcon", "Orz", "Nemesis");
+						AddListViewItem("PkunkFuryIcon", "Pkunk", "Fury");
+						AddListViewItem("ShofixtiScoutIcon", "Shofixti", "Scout");
+						AddListViewItem("SlylandroProbeIcon", "Slylandro", "Probe");
+						AddListViewItem("SpathiEluderIcon", "Spathi", "Eluder");
+						AddListViewItem("SupoxBladeIcon", "Supox", "Blade");
+						AddListViewItem("SyreenPenetratorIcon", "Syreen", "Penetrator");
+						AddListViewItem("ThraddashTorchIcon", "Thraddash", "Torch");
+						AddListViewItem("UmgahDroneIcon", "Umgah", "Drone");
+						AddListViewItem("UtwigJuggerIcon", "Utwig", "Jugger");
+						AddListViewItem("VUXIntruderIcon", "VUX", "Intruder");
+						AddListViewItem("YehatTerminatorIcon", "Yehat", "Terminator");
+						AddListViewItem("ZoqFotPikStingerIcon", "ZoqFotPik", "Stinger");
+					}
 				}
 				this.ListView.ResumeLayout();
 			}

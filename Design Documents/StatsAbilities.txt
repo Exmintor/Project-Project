@@ -1,0 +1,115 @@
+LÁTA PLAYER RÁÐA PRIORITY FYRIR ABILITIES
+
+Weapon Speed góð leið til að láta alla ekki gera á sama tíma.
+Skoða betur channeled abilities.
+T.d. Berserker getur channelað RAGE ability og eitthvað dmg class getur channelað DMG SYPHON
+
+
+STATS:
+Health - Health of a Character
+Physical Attack - Physical Attack Scaling
+Magical Attack - Magical Attack Scaling
+Physical Defense - Defense from Physical Attack
+Magical Defense - Defense from Magical Attack
+(Haste - Reduces Ability Cooldowns)
+
+ABILITIES:
+Basic Attack
+	-Damage: 5
+	-Cooldown: 1 sec
+	-Stat Change: N/A
+	-Effect: N/A
+	-Priority: 3
+	-Channeled: N/A
+Single Target Physical
+	-Damage: 
+	-Cooldown: 
+	-Stat Change: 
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Single Target Magical
+	-Damage: 
+	-Cooldown: 
+	-Stat Change: 
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Cleave Physical
+	-Damage: 
+	-Cooldown: 
+	-Stat Change: 
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Cleave Magical
+	-Damage: 
+	-Cooldown: 
+	-Stat Change:  
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Posion/DoT
+	-Damage: 
+	-Cooldown: 
+	-Stat Change: 
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Heal
+	-Damage: 
+	-Cooldown: 
+	-Stat Change: 
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Shield
+	-Damage: 
+	-Cooldown: 
+	-Stat Change: 
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Sacrifice/Guard
+	-Damage: 
+	-Cooldown:
+	-Stat Change: 
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Buff
+	-Damage: 
+	-Cooldown:
+	-Stat Change:  
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Weaken/Debuff
+	-Damage: 
+	-Cooldown:
+	-Stat Change:  
+	-Effect: 
+	-Priority: 
+	-Channeled:
+Interrupt:
+	-Damage: 
+	-Cooldown:
+	-Stat Change: 
+	-Effect: 
+	-Priority: 1
+	-Channeled: 
+
+
+Character:
+	int health
+	int physicalAttack
+	int magicalAttack
+	int physicalDefense
+	int magicalDefense
+	Ability mainAbility
+	float damageModifier
+
+Ability:
+	int damage
+	int cooldown
+	int statChange

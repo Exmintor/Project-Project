@@ -1,18 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using Endgame;
+
 
 public enum CharacterElement { Name, Race, Class, Background, Price }
-public class CharacterGenerator : MonoBehaviour {
+public class CharacterGenerator : MonoBehaviour
+{
 
     public int NumberOfCharacter;
-    public List<Character> CharacterList { get; private set; }
+    public List<Character> CharacterList { get; set; }
+    
 
     private List<string> names;
     private List<string> races;
-    private List<string> classes;
+    public List<string> classes;
     private List<string> backgrounds;
-    private List<int> prices;
+    public List<int> prices;
+    public List<int> ids;
+
+
+
+
+
+
 
     private Random rand;
 
@@ -25,12 +39,15 @@ public class CharacterGenerator : MonoBehaviour {
         classes = new List<string>();
         backgrounds = new List<string>();
         prices = new List<int>();
+        ids = new List<int>();
+
 
         PopulateNames();
         PopulateRaces();
         PopulateClasses();
         PopulateBackgrounds();
         PopulatePrices();
+        
 
         for (int i = 0; i < NumberOfCharacter; i++)
         {
@@ -39,10 +56,10 @@ public class CharacterGenerator : MonoBehaviour {
         }
     }
     // Use this for initialization
-    void Start ()
+    void Start()
     {
 
-        
+
     }
 
     private Character GenerateRandomCharacter()
@@ -52,10 +69,42 @@ public class CharacterGenerator : MonoBehaviour {
         string playerClass = GetRandomStringFromList(classes);
         string background = GetRandomStringFromList(backgrounds);
         int price = GetRandomIntFromList(prices);
+        int id = GetIntFromList(ids);
 
-        Character character = new Character(name, race, playerClass, background, price);
+        Character character = new Character(name, race, playerClass, background, price, id);
         return character;
     }
+
+    //HÉR
+    //var uniqueItemsList = yourList.Distinct().ToList();
+    List<int> usedValues = new List<int>();
+    public int UniqueRandomInt(int min, int max)
+    {
+        int val = Random.Range(min, max);
+        while (usedValues.Contains(val))
+        {
+            val = Random.Range(min, max);
+        }
+        return val;
+    }
+
+
+    //TALNARÖÐ
+    public int idtest = 0;
+    public int GetIntFromList(List<int> list)
+    {                
+        List<int> primes = new List<int>();
+        
+        bool isInList = primes.IndexOf(idtest) != 1;
+
+        if (isInList)
+        {
+            idtest += 1;
+           };
+       
+        return idtest;
+    }
+
 
     private string GetRandomStringFromList(List<string> list)
     {
@@ -115,4 +164,7 @@ public class CharacterGenerator : MonoBehaviour {
         prices.Add(40);
         prices.Add(50);
     }
+
+
 }
+

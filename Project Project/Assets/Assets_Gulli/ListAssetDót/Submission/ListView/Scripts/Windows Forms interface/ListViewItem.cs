@@ -402,7 +402,6 @@
 				}
 			}
 
-
 			public string Text
 			{
 				get
@@ -623,11 +622,7 @@
 				}
 			}
 
-        
-
-
-
-            public bool IsReadOnly { get { return false; } }
+			public bool IsReadOnly { get { return false; } }
 
 			public ListViewSubItem this[int index]
 			{
@@ -639,7 +634,7 @@
 					}
 					else
 					{
-						return new ListViewSubItem(this.owner, string.Empty); //string.Empty
+						return new ListViewSubItem(this.owner, string.Empty);
 					}
 				}
 

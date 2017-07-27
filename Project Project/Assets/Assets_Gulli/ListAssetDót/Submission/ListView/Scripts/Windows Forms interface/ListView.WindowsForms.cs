@@ -833,10 +833,6 @@
 			}
 		}
 
-
-        //UUU HALLÓ
-
-
 		public class SelectedIndexCollection : IList, ICollection, IEnumerable
 		{
 			private ListView owner;
@@ -1044,10 +1040,6 @@
 				}
 			}
 		}
-        
-        
-        //BÚIÐ SPIL
-
 
 		private interface ISelectedListViewItemCollectionInternals
 		{
