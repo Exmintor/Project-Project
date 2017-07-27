@@ -1,13 +1,40 @@
 Scouting:
 
+
 -Scout stats:
 
 Gætum haft Knowledge/experience eða eitthvað, ákveðnar plánetur/heimar sem að hann getur pullað info um fightera, 
-gæti verið % based yfir flestar plánetur svipað og í FM
+gæti verið % based yfir flestar plánetur svipað og í FM.
 
-Gætum haft Speed/diligence eða eitthvað, væri tala af fighterum sem að hann myndi contributa í scouting poolið. Basically bara hversu hratt scoutar hann playera og 
-hendir þeim í time based scouting poolið per refresh af poolinu.
+Hierarchy yfir hvaða race hann getur scoutað, líklegri til að vera góður að scouta sitt race en getur komið fyrir að hann sé góður að scouta mörg. 
+3 hæstu racial knowledge stattar displayed fyrir simplicity, allir hinir hidden en samt viable á að hækka.
 
-Gætum haft Accuracy/knowledge eða eitthvað, hversu vel scoutinn estimate'ar current og future ability af hverjum fighter. Gæti bara influencað fightera sem að hann
-contributar í scouting poolið eða kannski myndi þessi stat sameinast milli scouta í overall stat % fyrir alla. Myndi combata að maður fengi bara einn gaur sem að væri
-99% accurate og myndi aldrei leita að scout aftur.
+Hardworking stat: Tala af fighterum sem að hann myndi contributa í scouting poolið. Basically bara hversu hratt hann scoutar fighera og 
+hendir þeim í time based scouting poolið per cycle af poolinu.
+
+Gætum haft Accuracy eða eitthvað álíka stat, segir til um hversu accurately hann getur sagt um statta. Myndi skiptast niður í types eins og magic/physical og jafnvel fleiri.
+
+Scoutar með að meðaltali góða eða betri statta "unlockast" við hærra reputation og verða available/sjáanlegir. Kemur með progression í leiknum. Hærra rep, meira success, betri fighters/staff ezezgg no negros.
+
+Scoutar gætu séð hvaða race/class þú ert að spila og leitað af þeim eða orðið betri í að scouta þá. Gæti verið feature sem að assistantinn myndi nota til að simplify'a stuff fyrir mann (delegate).
+
+
+-Scouting pool:
+
+Filtering á scouting pool searchið, filtera nokkra þætti til að fá race, background og ákveðna statta úr þínu scouting pooli.
+
+Background/character trait hidden/obscure þangað til þú kaupir hann. Sérð t.d. kannski bara týpu af background en ekki hversu influencial það er (t.d. 1-10% meira hardworking etc)
+
+Combined hardworking hjá þeim scoutum myndi ákveða hversu marga fightera þeir contribute'a í scout poolið per cycle. Ef sami gaur er að contribute'a að tvem eða fleiri þáttum 
+countar hans hardworking samt bara einu sinni.
+
+
+-Scouting assignments:
+
+Getum skipt scoutum niður í assignments. Hver scout getur contribute'að að einum eða öllum categories fyrir næsta scouting pool. 
+
+Current categories: Race, class, stat 1 og stat 2.
+
+Getur sent scout team á mismunandi assignments (finna mage, finna warrior) og getur scale'að hversu mikið af scouting poolinu það assignment effectar (slider kannski, 70% og 30% fyrir 2 assignment for example).
+
+Getum gert annað assignment til að scouta þjálfara, yrði væntanlega einfaldara en fyrir fightera. Hefðum þetta sennilega einfalt, svipaðir stattar relate'a (góður að scouta magic, betri að finna þjálfara sem þjálfar magic).
