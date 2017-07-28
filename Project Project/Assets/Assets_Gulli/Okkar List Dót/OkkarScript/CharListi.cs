@@ -462,11 +462,14 @@
             GameObject CharGen = GameObject.Find("CharacterGenerator");
             CharacterGenerator CharGenScr = CharGen.GetComponent<CharacterGenerator>();
             //CharGenScr.ids.ToString();
-            int selectedInd = this.ListView.SelectedIndices[0];
-            NameTest = this.ListView.Items[selectedInd].SubItems[5].Text;
-            nafn = Int32.Parse(NameTest);
-            //index á itemi sem er ýtt á
-            IndexForName = charList.FindIndex(x => x.Id == nafn);
+            if(this.ListView.SelectedIndices.Count != 0)
+            {
+                int selectedInd = this.ListView.SelectedIndices[0];
+                NameTest = this.ListView.Items[selectedInd].SubItems[5].Text;
+                nafn = Int32.Parse(NameTest);
+                //index á itemi sem er ýtt á
+                IndexForName = charList.FindIndex(x => x.Id == nafn);
+            }
 
 
             // Some buttons require a selection, so disable them if there is no 
