@@ -116,7 +116,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 91033293}
-  - component: {fileID: 91033294}
+  - component: {fileID: 91033292}
   m_Layer: 0
   m_Name: CharacterListi
   m_TagString: Untagged
@@ -124,6 +124,57 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &91033292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 91033291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b41a65c517aeb7842afbf876626a7f69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hestur: 
+  Buy: {fileID: 1693844507497218, guid: 1ab00cf40bd375d44826933f6890b766, type: 2}
+  charGen: {fileID: 246580690}
+  ListView: {fileID: 1676053062}
+  ItemButtonPrefab: {fileID: 100000, guid: 22ce7c3f9efdf184392c18eef7c0d22c, type: 2}
+  AndrosynthGuardianIcon: {fileID: 21300000, guid: 1ec57f276ba1cce4e81caaf77c27ffbc,
+    type: 3}
+  ArilouSkiffIcon: {fileID: 21300000, guid: 1ec57f276ba1cce4e81caaf77c27ffbc, type: 3}
+  ChenjesuBroodhomeIcon: {fileID: 0}
+  ChmmrAvatarIcon: {fileID: 0}
+  UrQuanDreadnoughtIcon: {fileID: 0}
+  DruugeMaulerIcon: {fileID: 0}
+  EarthlingCruiserIcon: {fileID: 0}
+  KorAhMarauderIcon: {fileID: 0}
+  MelnormeTraderIcon: {fileID: 0}
+  MmrnmhrmXForm: {fileID: 0}
+  MyconPodshipIcon: {fileID: 0}
+  OrzNemesisIcon: {fileID: 0}
+  PkunkFuryIcon: {fileID: 0}
+  ShofixtiScoutIcon: {fileID: 0}
+  SlylandroProbeIcon: {fileID: 0}
+  SpathiEluderIcon: {fileID: 0}
+  SupoxBladeIcon: {fileID: 0}
+  SyreenPenetratorIcon: {fileID: 0}
+  ThraddashTorchIcon: {fileID: 0}
+  UmgahDroneIcon: {fileID: 0}
+  UtwigJuggerIcon: {fileID: 0}
+  VUXIntruderIcon: {fileID: 0}
+  YehatTerminatorIcon: {fileID: 0}
+  ZoqFotPikStingerIcon: {fileID: 0}
+  SliderPrefab: {fileID: 0}
+  nafn: 0
+  IndexForName: 0
+  NameTest: 
+  IndexOfItem: 0
+  buyTextTest: 
+  PriceOfItem: 
+  PriceOfItemInt: 0
+  idstostring: []
+  numVal: 0
 --- !u!4 &91033293
 Transform:
   m_ObjectHideFlags: 0
@@ -137,60 +188,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &91033294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 91033291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e0bc41a5402d5b46bd482847c7bf89a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hestur: 
-  Buy: {fileID: 1291790254}
-  charGen: {fileID: 246580690}
-  ListView: {fileID: 1676053062}
-  ItemButtonPrefab: {fileID: 100000, guid: 22ce7c3f9efdf184392c18eef7c0d22c, type: 2}
-  AndrosynthGuardianIcon: {fileID: 21300000, guid: bf6d96536a4568546a8a809622c26af9,
-    type: 3}
-  ArilouSkiffIcon: {fileID: 21300000, guid: ce2be75f9b8ceb74ca87d983d622eac5, type: 3}
-  ChenjesuBroodhomeIcon: {fileID: 21300000, guid: f185054ddbd98254eae43525ab0bbef0,
-    type: 3}
-  ChmmrAvatarIcon: {fileID: 21300000, guid: ec1fc3f6b2d7a8c46be871fbf15236b2, type: 3}
-  UrQuanDreadnoughtIcon: {fileID: 21300000, guid: 9db3c654126bb1d48a0283f04e5d56a0,
-    type: 3}
-  DruugeMaulerIcon: {fileID: 21300000, guid: e73dec7dfe88dc542a8b9379e551b3c3, type: 3}
-  EarthlingCruiserIcon: {fileID: 21300000, guid: 72e359896ddb41149adee388d171efe5,
-    type: 3}
-  KorAhMarauderIcon: {fileID: 21300000, guid: 051fe8d9dd23d644e9e4b317e4a03f78, type: 3}
-  MelnormeTraderIcon: {fileID: 21300000, guid: 85222116aa324be4cac01518b7fcd54d, type: 3}
-  MmrnmhrmXForm: {fileID: 21300000, guid: d7429ba1a4fe574448d5d3712dfc5918, type: 3}
-  MyconPodshipIcon: {fileID: 21300000, guid: 312a642f9a5962b4e92dc74ad3d9537d, type: 3}
-  OrzNemesisIcon: {fileID: 21300000, guid: 52bc19f1c89952241b17625f577de944, type: 3}
-  PkunkFuryIcon: {fileID: 21300000, guid: af7b57a399782254488fa3064ee43b49, type: 3}
-  ShofixtiScoutIcon: {fileID: 21300000, guid: cacf4ffa0aa593544a732673650f62ee, type: 3}
-  SlylandroProbeIcon: {fileID: 21300000, guid: 73a3fc0c6212e4c478d69aebacf597d0, type: 3}
-  SpathiEluderIcon: {fileID: 21300000, guid: 6cacbbe41f6cdf1408ec7550028949d8, type: 3}
-  SupoxBladeIcon: {fileID: 21300000, guid: 2b8fe3c307729ed429bcf8cd9d5b015f, type: 3}
-  SyreenPenetratorIcon: {fileID: 21300000, guid: 3c04ccba268790a44b4f9c81a888bc07,
-    type: 3}
-  ThraddashTorchIcon: {fileID: 21300000, guid: 13863882a1357884c96a0a8ff4c3322f, type: 3}
-  UmgahDroneIcon: {fileID: 21300000, guid: 1dd6cea53b9805448941767493abfce5, type: 3}
-  UtwigJuggerIcon: {fileID: 21300000, guid: 1dd6cea53b9805448941767493abfce5, type: 3}
-  VUXIntruderIcon: {fileID: 21300000, guid: 6f3c9282d33868042b5aa332258f834e, type: 3}
-  YehatTerminatorIcon: {fileID: 21300000, guid: 891d91bb58f47bc4285393310c9659ce,
-    type: 3}
-  ZoqFotPikStingerIcon: {fileID: 21300000, guid: ec8f30ae1d82c20479be558f0350bf18,
-    type: 3}
-  SliderPrefab: {fileID: 100002, guid: ad97c65e7e995a74f8bdd3450c8200cb, type: 2}
-  IndexOfItem: 0
-  buyTextTest: 
-  PriceOfItem: 
-  PriceOfItemInt: 0
-  idstostring: []
-  numVal: 0
 --- !u!1 &164688848
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,7 +1040,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 91033294}
+      - m_Target: {fileID: 0}
         m_MethodName: OnToggleSubItem0ImageButtonClicked
         m_Mode: 1
         m_Arguments:
@@ -1749,8 +1746,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158ae35c08a8d554e9b62c979b971b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Money: {fileID: 0}
-  MoneyScript: {fileID: 0}
   ColumnPanelPrefab: {fileID: 100004, guid: 10be6d3ec75a5cd40a2fdb637c23a7d1, type: 2}
   ItemButtonPrefab: {fileID: 100000, guid: 22ce7c3f9efdf184392c18eef7c0d22c, type: 2}
   DefaultHeadingBackgroundColor: {r: 1, g: 1, b: 1, a: 0}
@@ -1978,7 +1973,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 91033294}
+      objectReference: {fileID: 0}
     - target: {fileID: 114588365172238088, guid: 0f9563c4f9a2f6f4cb3f5ea6e53d794c,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -2193,7 +2188,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 91033294}
+      - m_Target: {fileID: 0}
         m_MethodName: OnBuyButtonClicked
         m_Mode: 1
         m_Arguments:
@@ -2339,7 +2334,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 91033294}
+      - m_Target: {fileID: 0}
         m_MethodName: OnToggleColumnClickModeButtonClicked
         m_Mode: 1
         m_Arguments:
@@ -2568,7 +2563,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 91033294}
+      - m_Target: {fileID: 0}
         m_MethodName: OnRemoveItemAtCurrentPositionButtonClicked
         m_Mode: 1
         m_Arguments:
@@ -2822,7 +2817,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 91033294}
+      - m_Target: {fileID: 0}
         m_MethodName: OnAddNewItemButtonClicked
         m_Mode: 1
         m_Arguments:
@@ -2902,8 +2897,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158ae35c08a8d554e9b62c979b971b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Money: {fileID: 0}
-  MoneyScript: {fileID: 0}
   ColumnPanelPrefab: {fileID: 100004, guid: 10be6d3ec75a5cd40a2fdb637c23a7d1, type: 2}
   ItemButtonPrefab: {fileID: 100000, guid: 22ce7c3f9efdf184392c18eef7c0d22c, type: 2}
   DefaultHeadingBackgroundColor: {r: 1, g: 1, b: 1, a: 0}
@@ -3123,7 +3116,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 91033294}
+      - m_Target: {fileID: 0}
         m_MethodName: OnToggleImageSizeButtonClicked
         m_Mode: 1
         m_Arguments:
@@ -3724,7 +3717,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 91033294}
+      - m_Target: {fileID: 0}
         m_MethodName: OnInsertItemAtCurrentPositionButtonClicked
         m_Mode: 1
         m_Arguments:
