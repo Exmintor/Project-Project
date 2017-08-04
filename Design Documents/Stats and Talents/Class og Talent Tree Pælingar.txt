@@ -11,6 +11,14 @@ Basic Tank týpa:
 Aukalega: Buffs/debuffs? DoT/HoT?
 Ability possibilities: Sacrifice on ally, taunt?
 
+Magic based hybrid tank:
+-Resistance/barriers
+-Absorb/offsensive
+-Absorb/defensive
+-Passives?
+Aukalega: stuns? reflection? HoT? weakness? taunt?
+Ability possibilities: Absorbar part af damage taken, absorbar part af team damage taken, byggir þannig upp power til að nota spells n stuff.
+
 
 -DPS-
 
@@ -19,7 +27,7 @@ Sorcerer:
 -Frost (Magic Tank?, Langt Stun)
 -Fire (Single Target, DoT?)
 Aukalega: buffs/debuffs? defensive? passives?
-Ability possibilities: Chain lightning? Ignite? Frost tomb?
+Ability possibilities: Chain lightning? Ignite? Frost tomb? Unstability meter tickar per spell, unleashar á team?
 Talent combo pæling: Elemental bolt?
 
 Barbarian:
@@ -38,12 +46,35 @@ Aukalega: defensive? buff? physical?
 Ability possibilities: Frussar út DoTum eins og negrar frussa út kynsjúkdómum
 
 Ranged (byssur?):
+-Offensive 1 (single, dot?)
+-Offensive 2 (cleave, debuff?)
+-Passives?
+-Utility?
+Aukalega: stuns? drain? dots? heavy crit based?
+Ability possibilities: Single target dmg, cleave dmg, dots, debuffs?
 
 
 -Support og Utility-
 
 Basic Healer:
+-Healing (single og multi)
+-HoT vs. Burst?
+-Offensive?
+-Passives?
+Aukalega: stuns? buff/debuff? defensive? offensive variability?
+Ability possibilities: Single heal, multi heal, HoT?
 
 Buffer:
+-Offensive team buffs
+-Defensive team buffs
+-Opposition debuffs
+Aukalega: stuns? single target buff/debuff? offensive abilities fyrir hann?
+Ability possibilities: Aura buff, hex debuff?
 
 Saboteur:
+-Utility (stuns, interrupts)
+-Offensive
+-Passives?
+-DoT/debuff?
+Aukalega: cleave? silence? debuffs? drain/leech?
+Ability possibilities: Stuns, interrupts, single target dmg.

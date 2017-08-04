@@ -4,9 +4,9 @@ Stat setup:
 Strength - Physical dmg og crit?
 Agility - Physical dmg og crit?
 Intelligence - Magic/healing mod, crit?, decision mod?
-Vitality - Health, health regen?
+Vitality - Health, health regen? health per level?
 
--Ability dmg types:
+-Ability dmg types (myndu sennilega breytast í meira sci fi based hluti síðar):
 Fire
 Frost
 Lightning
@@ -22,7 +22,7 @@ Experience gain
 -Mental stats (increase'ar með lvlum/xp):
 Decision - AI fljótar ákvarðanir (hjálpar að velja target og/eða)
 Leader/Leadership - Góður í að taka ákvarðanir
-Defiance - Ólíklegri til að fylgja leader
+Defiance - Ólíklegri til að fylgja leader (gæti líka verið Obedience/loyalty, ef lár þar þá ólíklegri til að fylgja leaderu sama, ef hár þá meiri team player)
 Hardworking - Hefði áhrif á Training rate
 Reflexes - Myndi tengjast interrupt eða skyndiákvörðunum
 
@@ -36,6 +36,13 @@ Dmg resist/armor?
 Magic resistance (kannski brotið niður í types)
 Attack speed
 Magic speed?
+Reflection?
+Absorb?
+
+
+Uncategorized stats:
+Racial relations
+Political/global influence
 
 
 Leadership? - Player getur mögulega assignað þann með besta decision stat sem leader - aðrir fylgja honum

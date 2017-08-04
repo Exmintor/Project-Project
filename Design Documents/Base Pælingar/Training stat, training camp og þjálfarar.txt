@@ -1,13 +1,18 @@
 Training stat, training camp og þjálfarar:
 
+
 -Training stat:
 Hidden Training stattinn ákveður hversu hratt fighterinn developar. Statinn væri líklegast random base af t.d. 10-60 af 100 með hardworking/determination sem modifier.
 Hann gæti verið influencaður af t.d. background, race, random event og training camp score sem allt yrði annar modifier.
 
+
 -Concentration camp:
+Þjálfar fighterana hér, gæti investað í þessum stað með betra equipmenti fyrir bonusa eins og faster training time, experience gain, chance á að fá auka feats eða buff or sum.
+
 
 -Þjálfarar:
-Gæti verið hægt að scouta þjálfara sem eru misgóðir í að þjálfa ákveðin stats. Stattarnir hjá þeim þjálfara contribute'a að heildar "training score" í training campinu.
+Gæti verið hægt að scouta þjálfara sem eru misgóðir í að þjálfa ákveðin stats. Stattarnir hjá þeim þjálfara contribute'a að heildar "training score" í training campinu. Gæti líka farið í sömu átt og scouts,
+assignar einn þjálfara í að þjálfa einn statt eða fleiri.
 
 Example þjálfara stattar gætu verið: 78 Str, 54 Agi, 21 Int, 45 Vita (af 100).
 
