@@ -85,7 +85,7 @@
             this.toggleColumnClickModeButton =
                 GameObject.Find("/Canvas/Buttons/ToggleColumnClickModeButton").GetComponent<Button>();
             //Okkar kodi
-            this.buyButton = GameObject.Find("/Canvas/Buttons/Buy").GetComponent<Button>();
+            this.buyButton = GameObject.Find("/Canvas/Panel Tab (3)/Panel/Buy").GetComponent<Button>();
 
             // Add some test data (columns and items).
             this.AddTestData();
