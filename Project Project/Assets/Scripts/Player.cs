@@ -62,16 +62,16 @@ public class Player : MonoBehaviour
     private void TakeAction()
     {
         Ability ability = ChooseAbility(); //Fix it so that is chooses relevant Ability
-        List<Player> targets = new List<Player>();
+        List<Player> currentTargets = new List<Player>();
         for(int i = 0; i < ability.NumTargets; i++)
         {
             Player target = ChooseTarget(); //Make sure that he doesn't select the same player twice
-            targets.Add(target);
+            currentTargets.Add(target);
         }
 
-        if (targets.Count != 0 && ability != null)
+        if (currentTargets.Count != 0 && ability != null)
         {
-            foreach(Player target in targets)
+            foreach(Player target in currentTargets)
             {
                 AffectTarget(target, this, ability);
             }
@@ -143,7 +143,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        int target = Random.Range(0, numTargets + 1);
+        int target = Random.Range(1, numTargets + 1);
         int targetSearch = 0;
         foreach (Player player in targets)
         {
