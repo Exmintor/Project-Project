@@ -2,5 +2,9 @@ Optional features:
 
 
 -Blood rites:
+Getur challenge'að aðra managera fyrir fighterana þeirra. Ef þú vinnur færðu fighterinn, ef þú tapar missir þú moneys. 
+Manager getur líka challenge'að þig, þarft kannski að borga smá moneys til að refuse'a challenge.
 
-Getur challenge'að aðra managera fyrir fighterana þeirra. Ef þú vinnur færðu fighterinn, ef þú tapar missir þú moneys. Manager getur líka challenge'að þig, þarft kannski að borga smá moneys til að refuse'a challenge.
+-Þitt background:
+Getur valið nokkur background áður en þú byrjar leikinn til að fá ákveðan bonusa svipað og í AoG.
+Trader, byrjar með meira gull. Ex-Fighter, ert betri að þjálfa fighters o.fl. Væri hægt að implementa betur later on.
