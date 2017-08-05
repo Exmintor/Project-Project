@@ -269,7 +269,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: '"Magic Cleave"'
   cooldown: 5
-  channelTime: 0
   tickTimer: 0
   numTargets: 2
   effect: 0
@@ -520,7 +519,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: '"Sacrifice"'
   cooldown: 8
-  channelTime: 0
   tickTimer: 0
   numTargets: 1
   effect: 3
@@ -652,7 +650,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: '"Physical Single"'
   cooldown: 5
-  channelTime: 0
   tickTimer: 0
   numTargets: 1
   effect: 0
@@ -884,7 +881,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: '"Poison"'
   cooldown: 6
-  channelTime: 0
   tickTimer: 0.5
   numTargets: 1
   effect: 2
@@ -974,7 +970,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: '"Sacrifice"'
   cooldown: 8
-  channelTime: 0
   tickTimer: 0
   numTargets: 1
   effect: 3
@@ -1265,13 +1260,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: '"Heal"'
-  cooldown: 4
-  channelTime: 4
+  cooldown: 8
   tickTimer: 1
   numTargets: 1
-  effect: 1
+  effect: 2
   modifier: 8
-  duration: 0
+  duration: 4
 --- !u!114 &2145364728 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114082537518446700, guid: c72c6b66b47d669408ce78c97664a205,

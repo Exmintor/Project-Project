@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Effect { Damage, Heal, Poison, Redirect, DamageUp }
+public enum Effect { Damage, Heal, Healing, Poison, Redirect, DamageUp }
 
 public class StatusEffect
 {

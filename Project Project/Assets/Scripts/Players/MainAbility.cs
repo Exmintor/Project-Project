@@ -6,7 +6,6 @@ public class MainAbility : MonoBehaviour {
 
     public string ID;
     public float cooldown;
-    public float channelTime;
     public float tickTimer;
     public int numTargets;
 
@@ -18,7 +17,7 @@ public class MainAbility : MonoBehaviour {
     {
         Player player = GetComponent<Player>();
         StatusEffect statusEffect = new StatusEffect(effect, modifier, duration, tickTimer);
-        Ability ability = new Ability(ID, cooldown, channelTime, numTargets, statusEffect);
+        Ability ability = new Ability(ID, cooldown, numTargets, statusEffect);
         player.abilities.Add(ability);
 	}
 }

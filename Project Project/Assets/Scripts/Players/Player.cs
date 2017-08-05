@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
     private void AddBasicAttack()
     {
         StatusEffect basicDamage = new StatusEffect(Effect.Damage, 10, 0, 0);
-        abilities.Add(new Ability("Basic Attack", 0, 0, 1, basicDamage));
+        abilities.Add(new Ability("Basic Attack", 0, 1, basicDamage));
     }
 
     private void TakeAction()
@@ -108,16 +108,31 @@ public class Player : MonoBehaviour
                         TakeDamage(status.Modifier);
                     }
                     break;
+                case Effect.Healing:
+                    status.durationTimer += Time.deltaTime;
+                    status.timeSinceLastTick += Time.deltaTime;
+                    if(status.durationTimer >= status.Duration)
+                    {
+                        //Remove status effect from list
+                    }
+                    else if(status.timeSinceLastTick >= status.TickTimer)
+                    {
+                        //Make him heal a specific target
+                    }
+                    break;
             }
         }
     }
 
-    private void AffectTarget(Player target, Player user, Ability ability)
+    private void AffectTarget(Player target, Player user, Ability ability) //The key to your problem is here.
     {
         switch(ability.statusEffect.effect)
         {
             case (Effect.Damage):
                 target.TakeDamage(ability.statusEffect.Modifier);
+                break;
+            case (Effect.Healing):
+                this.ChannelHealing(ability, target); //But this is the new channeled heal
                 break;
             case (Effect.Heal):
                 target.HealYourself(ability); //It doesn't work as channeled ability
@@ -209,6 +224,11 @@ public class Player : MonoBehaviour
     }
 
     public void InflictPoison(Ability ability)
+    {
+        currentStatusEffects.Add(ability.statusEffect);
+    }
+
+    public void ChannelHealing(Ability ability, Player target)
     {
         currentStatusEffects.Add(ability.statusEffect);
     }
