@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     public List<Ability> abilities { get; private set; }
     private List<Player> targets;
 
-    private List<StatusEffect> currentStatusEffects;
+    private List<StatusInfo> currentStatusEffects;
 
     private float timeSinceLastAttack = 0;
     public float timeBetweenAttacks;
@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     {
         abilities = new List<Ability>();
         targets = new List<Player>();
-        currentStatusEffects = new List<StatusEffect>();
+        currentStatusEffects = new List<StatusInfo>();
     }
     // Use this for initialization
     void Start()
@@ -92,8 +92,9 @@ public class Player : MonoBehaviour
 
     private void DealWithStatusEffects()
     {
-        foreach(StatusEffect status in currentStatusEffects)
+        foreach(StatusInfo statusInfo in currentStatusEffects)
         {
+            StatusEffect status = statusInfo.StatusEffect; //Danger? Does the reference hold?
             switch(status.effect)
             {
                 case Effect.Poison:
@@ -117,14 +118,14 @@ public class Player : MonoBehaviour
                     }
                     else if(status.timeSinceLastTick >= status.TickTimer)
                     {
-                        //Make him heal a specific target
+                        statusInfo.Target.HealYourself(status.Modifier);
                     }
                     break;
             }
         }
     }
 
-    private void AffectTarget(Player target, Player user, Ability ability) //The key to your problem is here.
+    private void AffectTarget(Player target, Player user, Ability ability) //The key to your problem is here. Partially solved.
     {
         switch(ability.statusEffect.effect)
         {
@@ -132,13 +133,13 @@ public class Player : MonoBehaviour
                 target.TakeDamage(ability.statusEffect.Modifier);
                 break;
             case (Effect.Healing):
-                this.ChannelHealing(ability, target); //But this is the new channeled heal
+                this.ChannelHealing(target, user, ability); //But this is the new channeled heal
                 break;
             case (Effect.Heal):
-                target.HealYourself(ability); //It doesn't work as channeled ability
+                target.HealYourself(ability.statusEffect.Modifier); //It doesn't work as channeled ability
                 break;
             case (Effect.Poison):
-                target.InflictPoison(ability);
+                target.InflictPoison(target, user, ability);
                 break;
             case (Effect.Redirect):
                 //this.RedirectIncrease(ability); 
@@ -210,9 +211,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void HealYourself(Ability ability)
+    public void HealYourself(float modifier)
     {
-        CurrentHealth += ability.statusEffect.Modifier;
+        CurrentHealth += modifier;
         if(CurrentHealth > maxHealth)
         {
             CurrentHealth = maxHealth;
@@ -223,13 +224,15 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void InflictPoison(Ability ability)
+    public void InflictPoison(Player target, Player user, Ability ability)
     {
-        currentStatusEffects.Add(ability.statusEffect);
+        StatusInfo status = new StatusInfo(user, target, ability.statusEffect);
+        currentStatusEffects.Add(status);
     }
 
-    public void ChannelHealing(Ability ability, Player target)
+    public void ChannelHealing(Player target, Player user, Ability ability) //Same as above. Rename into something more generic and use one method for both.
     {
-        currentStatusEffects.Add(ability.statusEffect);
+        StatusInfo status = new StatusInfo(user, target, ability.statusEffect);
+        currentStatusEffects.Add(status);
     }
 }

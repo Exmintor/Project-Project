@@ -7,13 +7,12 @@ using UnityEngine.EventSystems;
 using Endgame;
 
 
-public enum CharacterElement { Name, Race, Class, Background, Price }
+public enum CharacterElement { Name, Race, Class, Background, Price } //TODO: Bæta við ID? Hvar var þetta aftur notað?
 public class CharacterGenerator : MonoBehaviour
 {
 
     public int NumberOfCharacter;
     public List<Character> CharacterList { get; set; }
-    
 
     private List<string> names;
     private List<string> races;
@@ -21,12 +20,6 @@ public class CharacterGenerator : MonoBehaviour
     private List<string> backgrounds;
     public List<int> prices;
     public List<int> ids;
-
-
-
-
-
-
 
     private Random rand;
 
@@ -39,7 +32,7 @@ public class CharacterGenerator : MonoBehaviour
         classes = new List<string>();
         backgrounds = new List<string>();
         prices = new List<int>();
-        ids = new List<int>();
+        ids = new List<int>(); //TODO: Listi aldrei notaður?
 
 
         PopulateNames();
@@ -86,10 +79,11 @@ public class CharacterGenerator : MonoBehaviour
             val = Random.Range(min, max);
         }
         return val;
-    }
+    } //TODO: Aðferð aldrei kölluð. Óþarfi?
 
 
     //TALNARÖÐ
+    //TODO: Skoða betur og laga til. Passar inn lista sem er aldrei notaður ofl.
     public int idtest = 0;
     public int GetIntFromList(List<int> list)
     {                
