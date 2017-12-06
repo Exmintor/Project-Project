@@ -7,10 +7,7 @@ using System.Collections.Generic;
 public class Test : MonoBehaviour
 {
     public CharacterGenerator charGen;
-
-
     Text txt;
-    private int currentscore = 0;
 
     // Use this for initialization
     void Start()

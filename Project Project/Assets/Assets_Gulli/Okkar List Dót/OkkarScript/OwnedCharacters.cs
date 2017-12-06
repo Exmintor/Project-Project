@@ -323,8 +323,7 @@
           //ATH FÁ INDEX Á ITEMI:
           List<Character> charList = charGen.CharacterList;
           GameObject CharGen = GameObject.Find("CharacterGenerator");
-          CharacterGenerator CharGenScr = CharGen.GetComponent<CharacterGenerator>();
-          //CharGenScr.ids.ToString();
+          
           if(this.ListView.SelectedIndices.Count != 0)
           {
               int selectedInd = this.ListView.SelectedIndices[0];

@@ -324,8 +324,6 @@ namespace Examples
             List<Character> charList = charGen.CharacterList;
 
             GameObject CharGen = GameObject.Find("CharacterGenerator");
-            CharacterGenerator CharGenScr = CharGen.GetComponent<CharacterGenerator>();
-            //CharGenScr.ids.ToString();
 
             int selectedInd = this.ListView.SelectedIndices[0];
             buyTextTest = this.ListView.Items[selectedInd].SubItems[5].Text;
@@ -342,8 +340,7 @@ namespace Examples
             //ATH FÁ INDEX Á ITEMI:
             List<Character> charList = charGen.CharacterList;
             GameObject CharGen = GameObject.Find("CharacterGenerator");
-            CharacterGenerator CharGenScr = CharGen.GetComponent<CharacterGenerator>();
-            //CharGenScr.ids.ToString();
+            
             if(this.ListView.SelectedIndices.Count != 0)
             {
                 int selectedInd = this.ListView.SelectedIndices[0];

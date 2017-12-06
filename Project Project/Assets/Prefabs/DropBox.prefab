@@ -131,16 +131,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1102274437325550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 266dee177694435468095e35de5218cc, type: 3}
+  m_Script: {fileID: 11500000, guid: aaa954c1ea4a250499dd816cb2a3c4b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  containerImage: {fileID: 114876331927239726}
-  receivingImage: {fileID: 114876331927239726}
-  highlightColor:
-    r: 1
-    g: 1
-    b: 0
-    a: 1
+  containerImage: {fileID: 0}
+  receivingImage: {fileID: 0}
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  charGen: {fileID: 0}
+  texti: {fileID: 0}
+  column: []
+  SpriteItem: {fileID: 0}
+  itemIndex: 0
 --- !u!114 &114977426598553042
 MonoBehaviour:
   m_ObjectHideFlags: 1
