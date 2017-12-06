@@ -1,13 +1,12 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using Examples;
 using System.Collections.Generic;
 
-public class Test : MonoBehaviour
+public class Name : MonoBehaviour
 {
     public CharacterGenerator charGen;
-
 
     Text txt;
     private int currentscore = 0;
@@ -24,9 +23,9 @@ public class Test : MonoBehaviour
 
         List<Character> charList = charGen.CharacterList;
 
-        GameObject ChaList = GameObject.Find("CharacterListi");
-        CharListi ChaListScr = ChaList.GetComponent<CharListi>();
-        int i = ChaListScr.IndexOfItem;
+				GameObject charListiObject = GameObject.Find("OwnedCharactersListi");
+				OwnedCharacters charListi = charListiObject.GetComponent<OwnedCharacters>();
+				int i = charListi.IndexOfOwnedItem; //index númer á völdu itemi
 
         //nafnið á char á takkanum
         txt.text = "Buy : " + charList[i].Name;

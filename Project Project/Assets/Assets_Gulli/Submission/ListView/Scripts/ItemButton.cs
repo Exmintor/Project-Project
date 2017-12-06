@@ -1,4 +1,4 @@
-﻿namespace Endgame
+namespace Endgame
 {
 	using System;
 	using System.Collections.Generic;
@@ -7,14 +7,18 @@
 	using UnityEngine;
 	using UnityEngine.UI;
 	using UnityEngine.EventSystems;
+	using Examples;
 
 	public class ItemButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 	{
+		public CharListi charList;
+
 		public Image BackgroundImage;
 		public Image HorizontalBorderImage;
 		public Image VerticalBorderImage;
 		public Text Text;
 		public Image Image;
+		public Image DragImage;
 		public RectTransform CustomControlParent;
 		private int margin;
 		public int Margin { get { return this.margin; } }
