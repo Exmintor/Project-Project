@@ -88,14 +88,8 @@
 				return null;
 
 			//HÉRNA:
-			GameObject charListiObject = GameObject.Find("CharacterListi");
-			CharListi charListi = charListiObject.GetComponent<CharListi>();
-			itemIndex = charListi.IndexOfItem; //index númer á völdu itemi
 
-			column = GameObject.FindGameObjectsWithTag("ItemTag"); //taggið er á ItemButton prefabnum
-			SpriteItem = column[itemIndex];
-
-			var srcImage = SpriteItem.GetComponent<ItemButton>();
+			var srcImage = originalObj.GetComponent<ItemButton>();
 			if (srcImage == null)
 				return null;
 

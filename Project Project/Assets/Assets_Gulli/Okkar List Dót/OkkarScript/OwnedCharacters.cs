@@ -24,8 +24,6 @@
         public ListView ListView;
         public GameObject ItemButtonPrefab;
 
-        //sprites:
-        public Sprite Healer;
         private ImageList imageList;
 
         public GameObject SliderPrefab;
@@ -101,10 +99,12 @@
             this.ListView.Columns[5].Width = 110;
 
             // Create an image list.
-            imageList = new ImageList();
+            GameObject ChaList = GameObject.Find("CharacterListi");
+            CharListi ChaListScr = ChaList.GetComponent<CharListi>();
+            imageList = ChaListScr.imageList;
 
             // Add some images.
-            imageList.Images.Add("Healer", Healer);
+            //imageList.Images.Add("Healer", Healer);
 
             // Set the listview's image list.
             this.ListView.SmallImageList = imageList;
@@ -304,7 +304,8 @@
                 this.itemAddedCount++;
 
                 //MUNA AÐ BREYTA ICONI LÍKA HÉR
-                AddListViewItem("Healer", charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background, charList[i].Price.ToString(), charList[i].Id.ToString());
+                string classImage = charList[i].PlayerClass; //myndirnar heita eftir classes
+                AddListViewItem(classImage, charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background, charList[i].Price.ToString(), charList[i].Id.ToString());
 
                 // Select the new item and scroll to it.
                 this.ListView.SelectedIndices.Add(this.ListView.Items.Count - 1);
@@ -323,7 +324,7 @@
           //ATH FÁ INDEX Á ITEMI:
           List<Character> charList = charGen.CharacterList;
           GameObject CharGen = GameObject.Find("CharacterGenerator");
-          
+
           if(this.ListView.SelectedIndices.Count != 0)
           {
               int selectedInd = this.ListView.SelectedIndices[0];

@@ -23,8 +23,13 @@ namespace Examples
         public GameObject ItemButtonPrefab;
 
         //bæta við sprites:
-        public Sprite Healer;
-        private ImageList imageList;
+        public Sprite Warrior;
+        public Sprite Time_Mage;
+        public Sprite Old_Fart;
+        public Sprite Necromancer;
+        public Sprite Spellsword;
+
+        public ImageList imageList;
 
         public GameObject SliderPrefab;
         private Button insertItemAtCurrentPositionButton;
@@ -115,7 +120,11 @@ namespace Examples
             imageList = new ImageList();
 
             // Add some images.
-            imageList.Images.Add("Healer", Healer);
+            imageList.Images.Add("Warrior", Warrior);
+            imageList.Images.Add("Time Mage", Time_Mage);
+            imageList.Images.Add("Old Fart", Old_Fart);
+            imageList.Images.Add("Necromancer", Necromancer);
+            imageList.Images.Add("Spellsword", Spellsword);
 
             // Set the listview's image list.
             this.ListView.SmallImageList = imageList;
@@ -279,7 +288,8 @@ namespace Examples
 
                     for (int i = 0; i < charList.Count; i++)
                     {
-                        AddListViewItem("Healer", charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background, charList[i].Price.ToString(), charList[i].Id.ToString());
+                        string classImage = charList[i].PlayerClass; //myndirnar heita eftir classes
+                        AddListViewItem(classImage, charList[i].Race, charList[i].PlayerClass, charList[i].Name, charList[i].Background, charList[i].Price.ToString(), charList[i].Id.ToString());
                     }
                 }
                 this.ListView.ResumeLayout();
@@ -333,14 +343,12 @@ namespace Examples
             PriceOfItemInt = Int32.Parse(PriceOfItem);
         }
 
-
-
         public void Update()
         {
             //ATH FÁ INDEX Á ITEMI:
             List<Character> charList = charGen.CharacterList;
             GameObject CharGen = GameObject.Find("CharacterGenerator");
-            
+
             if(this.ListView.SelectedIndices.Count != 0)
             {
                 int selectedInd = this.ListView.SelectedIndices[0];

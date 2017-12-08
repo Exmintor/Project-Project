@@ -5,16 +5,26 @@
 	using UnityEngine.EventSystems;
 	using UnityEngine.UI;
 	using Examples;
+	using System.Collections;
+	using Endgame;
+	using System;
 
 	[RequireComponent(typeof(Image))]
 	public class DragMe : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 	{
 		public bool dragOnSurfaces = true;
+
+		public GameObject selSprite;
+
 		private Dictionary<int,GameObject> m_DraggingIcons = new Dictionary<int, GameObject>();
 		private Dictionary<int, RectTransform> m_DraggingPlanes = new Dictionary<int, RectTransform>();
 
 		public void OnBeginDrag(PointerEventData eventData)
 		{
+			//hér:
+			selSprite.GetComponent<SelectedImage>().itemClicked();
+			//
+
 			var canvas = FindInParents<Canvas>(gameObject);
 			if (canvas == null)
 				return;
@@ -33,9 +43,11 @@
 			group.blocksRaycasts = false;
 
 			//HÉR:
-
-			image.sprite = GetComponent<ItemButton>().DragImage.sprite; //Drag prefabinn velur myndina
+			image.sprite = selSprite.GetComponent<SelectedImage>().SelSprite;
 			image.SetNativeSize();
+
+			/*image.sprite = GetComponent<Image>().sprite;
+			image.SetNativeSize();*/
 
 			//
 
